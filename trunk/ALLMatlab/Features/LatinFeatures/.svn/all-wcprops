@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/205/trunk/ALLMatlab/Features/LatinFeatures
+END
+RunDigitsFeatures.m
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/205/trunk/ALLMatlab/Features/LatinFeatures/RunDigitsFeatures.m
+END
+loadTST.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/205/trunk/ALLMatlab/Features/LatinFeatures/loadTST.m
+END
+ComputeFeatures.m
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/205/trunk/ALLMatlab/Features/LatinFeatures/ComputeFeatures.m
+END
+TestFeature.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/205/trunk/ALLMatlab/Features/LatinFeatures/TestFeature.m
+END
+GenerateFullFeatures.m
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/205/trunk/ALLMatlab/Features/LatinFeatures/GenerateFullFeatures.m
+END
+FeatureVector.m
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/205/trunk/ALLMatlab/Features/LatinFeatures/FeatureVector.m
+END
+LoadMNISTDB.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/205/trunk/ALLMatlab/Features/LatinFeatures/LoadMNISTDB.m
+END
+ScriptFeature.m
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/205/trunk/ALLMatlab/Features/LatinFeatures/ScriptFeature.m
+END
+OVO.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/205/trunk/ALLMatlab/Features/LatinFeatures/OVO.m
+END
+loadTR.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/205/trunk/ALLMatlab/Features/LatinFeatures/loadTR.m
+END

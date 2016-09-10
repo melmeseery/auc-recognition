@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/199/trunk/Saved/DigitRecognition/data/dataset
+END
+DataSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/199/trunk/Saved/DigitRecognition/data/dataset/DataSet.java
+END
+MNISTDataSetGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/199/trunk/Saved/DigitRecognition/data/dataset/MNISTDataSetGenerator.java
+END
+MNISTDataBaseConnector.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/199/trunk/Saved/DigitRecognition/data/dataset/MNISTDataBaseConnector.java
+END
+DataSetGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/199/trunk/Saved/DigitRecognition/data/dataset/DataSetGenerator.java
+END
+ArabicDataSetGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/199/trunk/Saved/DigitRecognition/data/dataset/ArabicDataSetGenerator.java
+END
+DataBaseConnector.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/199/trunk/Saved/DigitRecognition/data/dataset/DataBaseConnector.java
+END
+ArabicDataBaseConnector.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/199/trunk/Saved/DigitRecognition/data/dataset/ArabicDataBaseConnector.java
+END

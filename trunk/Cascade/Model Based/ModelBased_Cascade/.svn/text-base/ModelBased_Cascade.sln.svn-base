@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual C++ Express 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ModelBased_Cascade", "ModelBased_Cascade.vcproj", "{0E404A18-4894-404B-8ED1-BED011DA298A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Random_Choices", "..\Random_Choices\Random_Choices.vcproj", "{23489E43-CAED-498C-AE14-4AF13A484320}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Inspection", "..\Inspection\Inspection.vcproj", "{ACB89849-7E51-4F14-BC57-C34B5D28B7A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E404A18-4894-404B-8ED1-BED011DA298A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0E404A18-4894-404B-8ED1-BED011DA298A}.Debug|Win32.Build.0 = Debug|Win32
+		{0E404A18-4894-404B-8ED1-BED011DA298A}.Release|Win32.ActiveCfg = Release|Win32
+		{0E404A18-4894-404B-8ED1-BED011DA298A}.Release|Win32.Build.0 = Release|Win32
+		{23489E43-CAED-498C-AE14-4AF13A484320}.Debug|Win32.ActiveCfg = Debug|Win32
+		{23489E43-CAED-498C-AE14-4AF13A484320}.Debug|Win32.Build.0 = Debug|Win32
+		{23489E43-CAED-498C-AE14-4AF13A484320}.Release|Win32.ActiveCfg = Release|Win32
+		{23489E43-CAED-498C-AE14-4AF13A484320}.Release|Win32.Build.0 = Release|Win32
+		{ACB89849-7E51-4F14-BC57-C34B5D28B7A6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ACB89849-7E51-4F14-BC57-C34B5D28B7A6}.Debug|Win32.Build.0 = Debug|Win32
+		{ACB89849-7E51-4F14-BC57-C34B5D28B7A6}.Release|Win32.ActiveCfg = Release|Win32
+		{ACB89849-7E51-4F14-BC57-C34B5D28B7A6}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

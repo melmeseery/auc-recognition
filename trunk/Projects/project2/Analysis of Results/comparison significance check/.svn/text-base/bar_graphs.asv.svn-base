@@ -1,0 +1,14 @@
+clear
+clc
+
+latin_accuracies=[92.35 94.25 94.76 96.99 96. ];
+arabic_accuracies=[];
+
+
+
+
+
+
+
+
+

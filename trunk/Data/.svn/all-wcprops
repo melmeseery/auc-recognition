@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/svn/!svn/ver/169/trunk/Data
+END
+getADDataBasePath.m
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/40/trunk/Data/getADDataBasePath.m
+END
+testing_set_labels.mat
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/40/trunk/Data/testing_set_labels.mat
+END
+avg_zero_bbox_area.mat
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/40/trunk/Data/avg_zero_bbox_area.mat
+END
+avg_bbox_area.mat
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/40/trunk/Data/avg_bbox_area.mat
+END

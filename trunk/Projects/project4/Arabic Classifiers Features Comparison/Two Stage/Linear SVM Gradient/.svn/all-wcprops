@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/85/trunk/project4/Arabic%20Classifiers%20Features%20Comparison/Two%20Stage/Linear%20SVM%20Gradient
+END
+Linear SVM Gradient.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/84/trunk/project4/Arabic%20Classifiers%20Features%20Comparison/Two%20Stage/Linear%20SVM%20Gradient/Linear%20SVM%20Gradient.cpp
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/85/trunk/project4/Arabic%20Classifiers%20Features%20Comparison/Two%20Stage/Linear%20SVM%20Gradient/stdafx.h
+END
+Two_Stage_Test.h
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/85/trunk/project4/Arabic%20Classifiers%20Features%20Comparison/Two%20Stage/Linear%20SVM%20Gradient/Two_Stage_Test.h
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/84/trunk/project4/Arabic%20Classifiers%20Features%20Comparison/Two%20Stage/Linear%20SVM%20Gradient/stdafx.cpp
+END
+Two_Stage_Validate.h
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/85/trunk/project4/Arabic%20Classifiers%20Features%20Comparison/Two%20Stage/Linear%20SVM%20Gradient/Two_Stage_Validate.h
+END
+Estimating_Calibrating_Parameters.h
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/85/trunk/project4/Arabic%20Classifiers%20Features%20Comparison/Two%20Stage/Linear%20SVM%20Gradient/Estimating_Calibrating_Parameters.h
+END

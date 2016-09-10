@@ -1,0 +1,365 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/256/trunk/ALLMatlab/AucLib/HMM/discrete
+END
+getTestSet.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/256/trunk/ALLMatlab/AucLib/HMM/discrete/getTestSet.m
+END
+readImages.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/256/trunk/ALLMatlab/AucLib/HMM/discrete/readImages.m
+END
+hmmrecog.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/222/trunk/ALLMatlab/AucLib/HMM/discrete/hmmrecog.m
+END
+hmmtrain2.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/256/trunk/ALLMatlab/AucLib/HMM/discrete/hmmtrain2.m
+END
+celp9600.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/217/trunk/ALLMatlab/AucLib/HMM/discrete/celp9600.m
+END
+ScriptTrainTest.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/256/trunk/ALLMatlab/AucLib/HMM/discrete/ScriptTrainTest.m
+END
+stpower.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/217/trunk/ALLMatlab/AucLib/HMM/discrete/stpower.m
+END
+runhmmtrain.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/217/trunk/ALLMatlab/AucLib/HMM/discrete/runhmmtrain.m
+END
+celp16k.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/217/trunk/ALLMatlab/AucLib/HMM/discrete/celp16k.m
+END
+lpcpitch.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/217/trunk/ALLMatlab/AucLib/HMM/discrete/lpcpitch.m
+END
+lpcauto.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/217/trunk/ALLMatlab/AucLib/HMM/discrete/lpcauto.m
+END
+unPackFeaturesVariables.m
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/217/trunk/ALLMatlab/AucLib/HMM/discrete/unPackFeaturesVariables.m
+END
+vgg_kmiter.dll
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/217/trunk/ALLMatlab/AucLib/HMM/discrete/vgg_kmiter.dll
+END
+lpcplot.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/217/trunk/ALLMatlab/AucLib/HMM/discrete/lpcplot.m
+END
+lpcgain.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/217/trunk/ALLMatlab/AucLib/HMM/discrete/lpcgain.m
+END
+voiunvoi.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/217/trunk/ALLMatlab/AucLib/HMM/discrete/voiunvoi.m
+END
+kmeans.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/217/trunk/ALLMatlab/AucLib/HMM/discrete/kmeans.m
+END
+scriptTestGeneration.m
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/217/trunk/ALLMatlab/AucLib/HMM/discrete/scriptTestGeneration.m
+END
+hmmfeatures.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/256/trunk/ALLMatlab/AucLib/HMM/discrete/hmmfeatures.m
+END
+vgg_kmeans.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/256/trunk/ALLMatlab/AucLib/HMM/discrete/vgg_kmeans.m
+END
+celp.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/217/trunk/ALLMatlab/AucLib/HMM/discrete/celp.m
+END
+hmmOfflineFeatures.m
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/256/trunk/ALLMatlab/AucLib/HMM/discrete/hmmOfflineFeatures.m
+END
+hmmcodebook.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/217/trunk/ALLMatlab/AucLib/HMM/discrete/hmmcodebook.m
+END
+postProcessImage.m
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/217/trunk/ALLMatlab/AucLib/HMM/discrete/postProcessImage.m
+END
+rf2lpc.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/217/trunk/ALLMatlab/AucLib/HMM/discrete/rf2lpc.m
+END
+hmmfb.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/217/trunk/ALLMatlab/AucLib/HMM/discrete/hmmfb.m
+END
+h_image.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/217/trunk/ALLMatlab/AucLib/HMM/discrete/h_image.m
+END
+getImageBox.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/217/trunk/ALLMatlab/AucLib/HMM/discrete/getImageBox.m
+END
+DensityFeature.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/217/trunk/ALLMatlab/AucLib/HMM/discrete/DensityFeature.m
+END
+simmx.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/217/trunk/ALLMatlab/AucLib/HMM/discrete/simmx.m
+END
+disteu.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/217/trunk/ALLMatlab/AucLib/HMM/discrete/disteu.m
+END
+lpcana.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/217/trunk/ALLMatlab/AucLib/HMM/discrete/lpcana.m
+END
+SplitImage.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/217/trunk/ALLMatlab/AucLib/HMM/discrete/SplitImage.m
+END
+Generate_Gaussian_Mask.m
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/217/trunk/ALLMatlab/AucLib/HMM/discrete/Generate_Gaussian_Mask.m
+END
+stzerocross.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/217/trunk/ALLMatlab/AucLib/HMM/discrete/stzerocross.m
+END
+disteusq.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/217/trunk/ALLMatlab/AucLib/HMM/discrete/disteusq.m
+END
+celpana.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/217/trunk/ALLMatlab/AucLib/HMM/discrete/celpana.m
+END
+hmmlogp.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/217/trunk/ALLMatlab/AucLib/HMM/discrete/hmmlogp.m
+END
+processResizeImage.m
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/217/trunk/ALLMatlab/AucLib/HMM/discrete/processResizeImage.m
+END
+OurFeatures.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/256/trunk/ALLMatlab/AucLib/HMM/discrete/OurFeatures.m
+END
+getHmmOberservations.m
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/256/trunk/ALLMatlab/AucLib/HMM/discrete/getHmmOberservations.m
+END
+lpcsyn.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/217/trunk/ALLMatlab/AucLib/HMM/discrete/lpcsyn.m
+END
+real_arctan.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/217/trunk/ALLMatlab/AucLib/HMM/discrete/real_arctan.m
+END
+vqlbg.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/217/trunk/ALLMatlab/AucLib/HMM/discrete/vqlbg.m
+END
+unPackHmmVariables.m
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/217/trunk/ALLMatlab/AucLib/HMM/discrete/unPackHmmVariables.m
+END
+celpsyn.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/217/trunk/ALLMatlab/AucLib/HMM/discrete/celpsyn.m
+END
+computeHmmFeatures.m
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/256/trunk/ALLMatlab/AucLib/HMM/discrete/computeHmmFeatures.m
+END
+stpitch.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/217/trunk/ALLMatlab/AucLib/HMM/discrete/stpitch.m
+END
+hmmtrain.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/217/trunk/ALLMatlab/AucLib/HMM/discrete/hmmtrain.m
+END
+lpcrespitch.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/217/trunk/ALLMatlab/AucLib/HMM/discrete/lpcrespitch.m
+END
+celpexcit.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/217/trunk/ALLMatlab/AucLib/HMM/discrete/celpexcit.m
+END
+vectorProfile.m
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/217/trunk/ALLMatlab/AucLib/HMM/discrete/vectorProfile.m
+END
+gmask_Local_Gradient_proj.m
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/217/trunk/ALLMatlab/AucLib/HMM/discrete/gmask_Local_Gradient_proj.m
+END
+durbin.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/217/trunk/ALLMatlab/AucLib/HMM/discrete/durbin.m
+END
+vgg_kmiter.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/217/trunk/ALLMatlab/AucLib/HMM/discrete/vgg_kmiter.c
+END
+lpcweight.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/217/trunk/ALLMatlab/AucLib/HMM/discrete/lpcweight.m
+END
+lpc2rf.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/217/trunk/ALLMatlab/AucLib/HMM/discrete/lpc2rf.m
+END
+TransitionFeatures.m
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/217/trunk/ALLMatlab/AucLib/HMM/discrete/TransitionFeatures.m
+END
+writeFeatures.m
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/227/trunk/ALLMatlab/AucLib/HMM/discrete/writeFeatures.m
+END
+hpspectrum.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/217/trunk/ALLMatlab/AucLib/HMM/discrete/hpspectrum.m
+END

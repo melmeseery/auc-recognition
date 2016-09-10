@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/199/trunk/Saved/DigitRecognition/classifiers/MultiFeature
+END
+MultiClassFeatureRecognizier.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/199/trunk/Saved/DigitRecognition/classifiers/MultiFeature/MultiClassFeatureRecognizier.java
+END
+ClassifierData.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/199/trunk/Saved/DigitRecognition/classifiers/MultiFeature/ClassifierData.java
+END
+BinaryMultiDigitRecognizier.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/199/trunk/Saved/DigitRecognition/classifiers/MultiFeature/BinaryMultiDigitRecognizier.java
+END
+HierarchicalClassifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/199/trunk/Saved/DigitRecognition/classifiers/MultiFeature/HierarchicalClassifier.java
+END
+ImageRecognizier.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/199/trunk/Saved/DigitRecognition/classifiers/MultiFeature/ImageRecognizier.java
+END
+AbstractRecognizier.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/199/trunk/Saved/DigitRecognition/classifiers/MultiFeature/AbstractRecognizier.java
+END

@@ -1,0 +1,929 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files
+END
+SVM.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/SVM.h
+END
+Perm_operations.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/Perm_operations.h
+END
+WordSeg.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/WordSeg.h
+END
+SoftPlus.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/SoftPlus.h
+END
+Random.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/Random.h
+END
+HMM.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/HMM.h
+END
+Mat.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/Mat.h
+END
+Measurer.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/Measurer.h
+END
+LogMixer.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/LogMixer.h
+END
+QCMachine.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/QCMachine.h
+END
+ClassNLLCriterion.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/ClassNLLCriterion.h
+END
+SpatialConvolution.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/SpatialConvolution.h
+END
+torch.lib
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/torch.lib
+END
+mx_sym_eig.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/mx_sym_eig.h
+END
+NullXFile.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/NullXFile.h
+END
+LanguageModel.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/LanguageModel.h
+END
+matrix.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/matrix.h
+END
+Stack.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/Stack.h
+END
+DecoderSingleTest.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/DecoderSingleTest.h
+END
+MAPDiagonalGMM.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/MAPDiagonalGMM.h
+END
+DiskXFile.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/DiskXFile.h
+END
+PhoneInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/PhoneInfo.h
+END
+KNN.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/KNN.h
+END
+FrameSeg.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/FrameSeg.h
+END
+OneHotClassFormat.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/OneHotClassFormat.h
+END
+CmdOption.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/CmdOption.h
+END
+mx_givens.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/mx_givens.h
+END
+DecoderBatchTest.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/DecoderBatchTest.h
+END
+Sequence.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/Sequence.h
+END
+IOBufferize.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/IOBufferize.h
+END
+Linear.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/Linear.h
+END
+WordChainElemPool.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/WordChainElemPool.h
+END
+List.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/List.h
+END
+general.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/general.h
+END
+TableLookupDistribution.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/TableLookupDistribution.h
+END
+InputsSelect.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/InputsSelect.h
+END
+WeightedMSECriterion.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/WeightedMSECriterion.h
+END
+MeanVarNorm.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/MeanVarNorm.h
+END
+MSEMeasurer.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/MSEMeasurer.h
+END
+Tanh.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/Tanh.h
+END
+mx_low_level.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/mx_low_level.h
+END
+HTKDataSet.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/HTKDataSet.h
+END
+LMNGram.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/LMNGram.h
+END
+ParzenDistribution.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/ParzenDistribution.h
+END
+Trainer.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/Trainer.h
+END
+EditDistanceMeasurer.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/EditDistanceMeasurer.h
+END
+Object.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/Object.h
+END
+MultiCriterion.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/MultiCriterion.h
+END
+string_stuff.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/string_stuff.h
+END
+DecodingHMM.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/DecodingHMM.h
+END
+IOAscii.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/IOAscii.h
+END
+Kernel.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/Kernel.h
+END
+GradientMachine.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/GradientMachine.h
+END
+IOMulti.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/IOMulti.h
+END
+PreProcessing.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/PreProcessing.h
+END
+Boosting.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/Boosting.h
+END
+TemporalMean.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/TemporalMean.h
+END
+IOHTKTarget.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/IOHTKTarget.h
+END
+string_utils.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/string_utils.h
+END
+TemporalSubSampling.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/TemporalSubSampling.h
+END
+mx_hessenberg.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/mx_hessenberg.h
+END
+LMInteriorLevelWordEntry.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/LMInteriorLevelWordEntry.h
+END
+LMCache.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/LMCache.h
+END
+NPTrainer.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/NPTrainer.h
+END
+NLLCriterion.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/NLLCriterion.h
+END
+Vocabulary.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/Vocabulary.h
+END
+DiskHTKDataSet.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/DiskHTKDataSet.h
+END
+BayesClassifier.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/BayesClassifier.h
+END
+TwoClassFormat.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/TwoClassFormat.h
+END
+CmdLine.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/CmdLine.h
+END
+WordSegMeasurer.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/WordSegMeasurer.h
+END
+MAPHMM.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/MAPHMM.h
+END
+Distribution.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/Distribution.h
+END
+Allocator.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/Allocator.h
+END
+Timer.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/Timer.h
+END
+SVMClassification.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/SVMClassification.h
+END
+LogSoftMax.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/LogSoftMax.h
+END
+mx_householder.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/mx_householder.h
+END
+DataSet.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/DataSet.h
+END
+resource.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/resource.h
+END
+QCTrainer.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/QCTrainer.h
+END
+SumMachine.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/SumMachine.h
+END
+log_add.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/log_add.h
+END
+DiskDataSet.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/DiskDataSet.h
+END
+Perm.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/Perm.h
+END
+SVMRegression.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/SVMRegression.h
+END
+ClassMeasurer.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/ClassMeasurer.h
+END
+ExampleFrameSelectorDataSet.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/ExampleFrameSelectorDataSet.h
+END
+LexiconInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/LexiconInfo.h
+END
+LMCacheEntry.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/LMCacheEntry.h
+END
+ClassFormat.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/ClassFormat.h
+END
+MemoryDataSet.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/MemoryDataSet.h
+END
+DiagonalGMM.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/DiagonalGMM.h
+END
+SpeechMLP.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/SpeechMLP.h
+END
+StochasticGradient.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/StochasticGradient.h
+END
+Mat_operations.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/Mat_operations.h
+END
+ParzenMachine.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/ParzenMachine.h
+END
+QCCache.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/QCCache.h
+END
+SVMCache.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/SVMCache.h
+END
+Exp.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/Exp.h
+END
+FrameSegMeasurer.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/FrameSegMeasurer.h
+END
+BayesClassifierMachine.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/BayesClassifierMachine.h
+END
+LogSigmoid.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/LogSigmoid.h
+END
+SaturationMeasurer.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/SaturationMeasurer.h
+END
+Bagging.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/Bagging.h
+END
+IOSequenceArray.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/IOSequenceArray.h
+END
+IOBin.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/IOBin.h
+END
+MemoryXFile.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/MemoryXFile.h
+END
+FrameSelectorDataSet.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/FrameSelectorDataSet.h
+END
+SpatialSubSampling.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/SpatialSubSampling.h
+END
+TimeMeasurer.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/TimeMeasurer.h
+END
+MSECriterion.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/MSECriterion.h
+END
+Parameters.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/Parameters.h
+END
+SimpleDecoderSpeechHMM.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/SimpleDecoderSpeechHMM.h
+END
+SpeechHMM.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/SpeechHMM.h
+END
+Vec.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/Vec.h
+END
+PhoneModels.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/PhoneModels.h
+END
+KMeans.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/KMeans.h
+END
+ClassNLLMeasurer.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/ClassNLLMeasurer.h
+END
+BeamSearchDecoder.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/BeamSearchDecoder.h
+END
+IOSub.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/IOSub.h
+END
+SoftMax.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/SoftMax.h
+END
+TemporalConvolution.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/TemporalConvolution.h
+END
+ClassFormatDataSet.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/ClassFormatDataSet.h
+END
+Mixer.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/Mixer.h
+END
+EMTrainer.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/EMTrainer.h
+END
+Grammar.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/Grammar.h
+END
+MatDataSet.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/MatDataSet.h
+END
+mx_solve.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/mx_solve.h
+END
+LinearLexicon.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/LinearLexicon.h
+END
+Criterion.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/Criterion.h
+END
+KFold.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/KFold.h
+END
+EditDistance.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/EditDistance.h
+END
+OutputMeasurer.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/OutputMeasurer.h
+END
+Machine.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/Machine.h
+END
+XFile.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/XFile.h
+END
+WeightedSumMachine.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/WeightedSumMachine.h
+END
+LogRBF.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/LogRBF.h
+END
+IOHTK.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/IOHTK.h
+END
+mx_lu_factor.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/mx_lu_factor.h
+END
+PipeXFile.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/PipeXFile.h
+END
+SpeechMLPDistr.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/SpeechMLPDistr.h
+END
+ConnectedMachine.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/ConnectedMachine.h
+END
+BoostingMeasurer.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/BoostingMeasurer.h
+END
+MLP.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/MLP.h
+END
+FileListCmdOption.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/FileListCmdOption.h
+END
+MultiClassFormat.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/MultiClassFormat.h
+END
+NLLMeasurer.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/NLLMeasurer.h
+END
+Multinomial.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/Multinomial.h
+END
+Sigmoid.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/Sigmoid.h
+END
+DecodingHypothesis.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/DecodingHypothesis.h
+END
+IOSequence.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/IOSequence.h
+END
+DiskMatDataSet.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/DiskMatDataSet.h
+END
+LMInteriorLevelWordList.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/56/trunk/project2/Final%20Classifiers%20Comparison/Torch%20Files/LMInteriorLevelWordList.h
+END

@@ -1,0 +1,24 @@
+clear
+clc
+
+fid_test_actual_comp= fopen('Test_Actual_Complexities.txt','r');
+fid_actual_comp= fopen('Actual_Complexities.txt','r');
+fid_err= fopen('Errors.txt','r');
+fid_test_err= fopen('Test_Errors.txt','r');
+fid_theo_com= fopen('Theoretical_Complexities.txt','r');
+
+
+format=['%d/n'];
+Test_Actual_Complexities=[];
+Actual_Complexities=[];
+Err=[];
+Test_Err[];
+Theo_Comp=[];
+while(1)
+    a=fscanf(fid_test_actual_comp,format)';
+    if(isempty(a))
+        break
+    end
+    Test_Actual_Complexities=[Test_Actual_Complexities; a];
+end
+

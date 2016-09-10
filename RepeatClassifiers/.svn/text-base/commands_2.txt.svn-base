@@ -1,0 +1,37 @@
+trainfile
+train_AllFeatures.txt
+testfile
+test_AllFeatures.txt
+format
+test 1 3
+format 
+train 1 3
+ 
+trainfile
+C2_4.txt
+testfile
+test_AllFeatures.txt
+flags
+2 0  0  1  1 5
+Feat
+HW,vol2,Vol(1),Vol(2),w2r,wu,w4lft,w4,wrb,mxb,wd,u1,smallwd,sre,mce69,sr,im,wce,wcb,wre,btop,bbot,sle3,sle,snv,cbe,wcbe,szero,mxlre6,lxre6,lxrb
+C
+500
+g
+0.000001
+vale
+
+
+trainfile
+C2_4.txt
+testfile
+test_AllFeatures.txt
+flags
+2 0  0  1  1 5
+Feat
+HW,vol2,Vol(1),Vol(2),w2r,wu,w4lft,w4,wrb,mxb,wd,u1,smallwd,sre,mce69,sr,im,wce,wcb,wre,btop,bbot,sle3,sle,snv,cbe,wcbe,szero,mxlre6,lxre6,lxrb
+C
+500
+g
+0.000001
+vale 

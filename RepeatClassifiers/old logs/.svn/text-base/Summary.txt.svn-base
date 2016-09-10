@@ -1,0 +1,15 @@
+---------------------------------_SVM_RBF_---------------------------------------------
+ Testing the  a28 feature pair using _SVM_RBF_ Classifier
+Accuracy = 99.85 %  ( 1997/2000 ) 
+Results achieved using follwoing parameters 
+ Number of Features = 4  C= 100  g = 0.01 h = 4205389
+---------------------------------_Linear_---------------------------------------------
+ Testing the  a28 feature pair using _Linear_ Classifier
+Accuracy = 99.9 %  ( 1998/2000 ) 
+Results achieved using follwoing parameters 
+ Number of Features = 4  C= 100  g = 0.01 h = 4205389
+---------------------------------_Neural_---------------------------------------------
+ Testing the  a28 feature pair using _Neural_ Classifier
+Accuracy = 99.9 %  ( 1998/2000 ) 
+Results achieved using follwoing parameters 
+ Number of Features = 4  C= 100  g = 0.01 h = 70

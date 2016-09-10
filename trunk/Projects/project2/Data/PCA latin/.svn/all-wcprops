@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/45/trunk/project2/Data/PCA%20latin
+END
+forming_matlab_sets.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/45/trunk/project2/Data/PCA%20latin/forming_matlab_sets.m
+END
+latin_eigenvalues.bmp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/45/trunk/project2/Data/PCA%20latin/latin_eigenvalues.bmp
+END
+large_N_PCcoeff.mat
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/45/trunk/project2/Data/PCA%20latin/large_N_PCcoeff.mat
+END
+Partitioning_MNIST.m
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/45/trunk/project2/Data/PCA%20latin/Partitioning_MNIST.m
+END
+forming_PCA_matlab_sets.m
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/45/trunk/project2/Data/PCA%20latin/forming_PCA_matlab_sets.m
+END
+forming_PCA_cpp_sets.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/45/trunk/project2/Data/PCA%20latin/forming_PCA_cpp_sets.m
+END
+mu.mat
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/45/trunk/project2/Data/PCA%20latin/mu.mat
+END
+forming_PCA_matrix_file.m
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/45/trunk/project2/Data/PCA%20latin/forming_PCA_matrix_file.m
+END
+finding_best_number_of_components.asv
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/45/trunk/project2/Data/PCA%20latin/finding_best_number_of_components.asv
+END
+finding_best_number_of_components.m
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/45/trunk/project2/Data/PCA%20latin/finding_best_number_of_components.m
+END

@@ -1,0 +1,665 @@
+% This file was created with JabRef 2.4.2.
+% Encoding: Cp1252
+
+@CONFERENCE{GreedyPaper,
+  author = {Sherif Abdelazeem},
+  title = {A Greedy Approach for Building Classification Cascades},
+  booktitle = {The Seventh International Conference on Machine Learning and Applications
+	(ICMLA'08)},
+  year = {2008},
+  pages = {115-120},
+  address = {San Diego, CA},
+  month = {Dec},
+  owner = {Maha},
+  timestamp = {2009.01.08}
+}
+
+@ARTICLE{IjdarSherifPaper,
+  author = {Sherif Abdelazeem and Ezzat El-Sherif},
+  title = {Arabic Handwritten Digit Recognition},
+  journal = {International Journal of Document Analysis and Recognition IJDAR},
+  year = {2008},
+  volume = {11},
+  pages = {127-141},
+  number = {3},
+  month = {Dec},
+  owner = {Maha},
+  timestamp = {2008.01.08}
+}
+
+@ARTICLE{indiannumerals14,
+  author = {Faruq A. Al-Omari and Omar M. Al-Jarrah},
+  title = {Handwritten Indian numerals recognition system using probabilistic
+	neural networks},
+  journal = {Advanced Engineering Informatics},
+  year = {2004},
+  volume = {18},
+  pages = {9-16},
+  number = {1},
+  bibdate = {2005-09-22},
+  bibsource = {DBLP, http://dblp.uni-trier.de/db/journals/aei/aei18.html#Al-OmariA04},
+
+}
+
+@CONFERENCE{SBelongieShapeMatching6,
+  author = {S. Belongie and J. Malik and J. Puzicha},
+  title = {Shape matching and object recognition using shape contexts,},
+  booktitle = {PAMI},
+  year = { 2002},
+  volume = {24},
+  number = {24},
+  owner = {Maha},
+  timestamp = {2008.12.01}
+}
+
+@ARTICLE{SVM24,
+  author = {C. Cortes, V. Vapnik},
+  title = {Support vector networks},
+  journal = {Machine Learning},
+  year = {1995},
+  volume = {20,},
+  pages = {273-297},
+  number = {3},
+  owner = {Maha},
+  timestamp = {2008.12.01}
+}
+
+@ARTICLE{caistructureStatical,
+  author = {J. Cai and Z. Liu},
+  title = {Integration of Structural and Statistical Information for Unconstrained
+	Handwritten Numeral Recognition},
+  journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year = {1999},
+  volume = { 21},
+  pages = {263-270},
+  number = {3},
+  month = {March},
+  owner = {TOSHIBA},
+  timestamp = {2009.06.20}
+}
+
+@INPROCEEDINGS{empiricalcomp11,
+  author = {Rich Caruana and Alexandru Niculescu-Mizil},
+  title = {An Empirical Comparison of Supervised Learning Algorithms},
+  booktitle = {International Conference on Machine Learning (ICML)},
+  year = {2006},
+  pages = {161-168},
+  organization = {Department of Computer Science, Cornell University},
+  annote = {Large empirical comparison of ML methods. Boosting and Bagging come
+	top.},
+  location = {Pittsburgh, Pennsylvania},
+  owner = {Maha},
+  timestamp = {2008.12.01}
+}
+
+@TECHREPORT{torch,
+  author = {R. Collobert and S. Bengio and J. Mariéthoz},
+  title = {Torch: a modular machine learning software library},
+  year = {2002},
+  booktitle = {IDIAP-RR},
+  pages = {02-46}
+}
+
+@BOOK{devijiverPRstatical,
+  title = {Pattern Recognition: A Statistical Approach},
+  publisher = {Prentice-Hall, London},
+  year = {1982},
+  author = {P. Devijver and J. Kittler},
+  address = {London},
+  owner = {TOSHIBA},
+  timestamp = {2009.06.20}
+}
+
+@TECHREPORT{Comparison2,
+  author = {J. Dong},
+  title = {Comparison of algorithms for handwritten numeral recognition},
+  institution = { Concordia University},
+  year = {1999},
+  type = {Technical report, CENPARMI},
+  owner = {Maha},
+  timestamp = {2008.12.01}
+}
+
+@CONFERENCE{ADBase9,
+  author = {E. El-Sherif and S. Abdelazeem},
+  title = {A Two-Stage System for Arabic Handwritten Digit Recognition Tested
+	on a New Large Database},
+  booktitle = {International Conference on Artificial Intelligence and Pattern Recognition
+	(AIPR-07)},
+  year = {2007},
+  address = {Orlando, FL, USA},
+  month = {July },
+  owner = {Maha},
+  timestamp = {2008.12.01}
+}
+
+@CONFERENCE{optimumPaper,
+  author = {Ezzat El-Sherif and Sherif Abdelazeem and M. Yazeed},
+  title = {Automatic Generation of Optimum Classification Cascades},
+  booktitle = {19th International Conference on Pattern Recognition (ICPR 2008)},
+  year = {2008},
+  address = {Tampa, FL},
+  month = {Dec},
+  owner = {Maha},
+  timestamp = {2009.01.08}
+}
+
+@INPROCEEDINGS{Favathand,
+  author = {J. FavatA and G. Srikantan and S. Srihari},
+  title = {Hand printed Character/Digit Recognition using a Multiple Feature/Resolution
+	Phitosophy},
+  booktitle = {Proc. IWFHR},
+  year = {1994},
+  pages = { 57-66},
+  owner = {TOSHIBA},
+  timestamp = {2009.06.20}
+}
+
+@TECHREPORT{polychotomous20,
+  author = {J. Friedman},
+  title = {Another Approach to Polychotomous Classification},
+  institution = {Stanford University},
+  year = {1996},
+  type = {Technical Report},
+  owner = {Maha},
+  timestamp = {2008.12.01}
+}
+
+@ARTICLE{AutoFeatGeneratGader96,
+  author = {Paul D. Gader and Mohamed Ali Khabou},
+  title = {Automatic Feature Generation for Handwritten Digit Recognition},
+  journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year = {1996},
+  volume = {18},
+  pages = {1256-1261},
+  number = {12},
+  address = {Los Alamitos, CA, USA},
+  doi = {http://doi.ieeecomputersociety.org/10.1109/34.546262},
+  issn = {0162-8828},
+  publisher = {IEEE Computer Society}
+}
+
+@ARTICLE{theoreticaltwostage18,
+  author = {N. Giusti and F. Masulli and A. Sperduti},
+  title = {Theoretical and Experimental Analysis of a Two-Stage System for Classification},
+  journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year = { 2002},
+  volume = {24},
+  pages = {893 – 904},
+  number = { 7},
+  owner = {Maha},
+  timestamp = {2008.12.01}
+}
+
+@BOOK{gonzalesimage,
+  title = {Digital image processing},
+  publisher = {Addison-Wesley},
+  year = {2002},
+  author = {R.C. Gonzales and R.E. Woods},
+  edition = {second edition},
+  owner = {TOSHIBA},
+  timestamp = {2009.06.20}
+}
+
+@INPROCEEDINGS{threestage8,
+  author = {D. Gorgevik and D. Cakmakov},
+  title = {An efficient three-stage classifier for handwritten digit recognition},
+  booktitle = {ICPR},
+  year = {2004},
+  pages = {IV: 507--510},
+  bibsource = {http://www.visionbib.com/bibliography/char1015.html#TT89008},
+  owner = {Maha},
+  timestamp = {2008.12.01},
+
+}
+
+@INPROCEEDINGS{groveiksvmhandwritten,
+  author = {D. Gorgevik and D. Cakmakov},
+  title = {Combining SVM classifiers for Handwritten Digit Recognition},
+  booktitle = {Proceedings of the 16 th International Conference on Pattern Recognition
+	(ICPR’02)},
+  year = {2002},
+  owner = {TOSHIBA},
+  timestamp = {2009.06.20}
+}
+
+@INPROCEEDINGS{GaborHamanoto96,
+  author = {Y. Hamamoto and S. Uchimura and M. Watanabe and T. Yasuda and S.
+	Tomita},
+  title = {Recognition of Handwritten Numerals Using Gabor Features},
+  booktitle = {ICPR '96: Proceedings of the International Conference on Pattern
+	Recognition (ICPR '96) Volume III-Volume 7276},
+  year = {1996},
+  pages = {250},
+  address = {Washington, DC, USA},
+  publisher = {IEEE Computer Society},
+  isbn = {0-8186-7282-X}
+}
+
+@INPROCEEDINGS{pairwisecoupling23,
+  author = {T. Hastie and R. Tibshirani},
+  title = {Classification by pairwise coupling},
+  booktitle = {Advances in Neural Information Processing Systems 10 (NIPS-97)},
+  year = {1998},
+  pages = {507–513},
+  owner = {Maha},
+  timestamp = {2008.12.01}
+}
+
+@ARTICLE{nearestneighbor19,
+  author = {M. Hellman},
+  title = {The nearest neighbor classification rule with a reject option},
+  journal = {IEEE Transactions on Systems Science and Cybernetics},
+  year = {1970},
+  volume = {6},
+  pages = {179–185},
+  number = {3},
+  owner = {Maha},
+  timestamp = {2008.12.01}
+}
+
+@ARTICLE{heuttestructuralstatistical,
+  author = {Heutte and T. Paquet and J. V. Moreau and Y. Lecourtier and C. Olovier},
+  title = {A structural/statistical feature based vector for handwritten character
+	recognition},
+  journal = {Pattern Recognition Letters},
+  year = {1998},
+  volume = {19},
+  pages = {629–641},
+  number = {5},
+  owner = {TOSHIBA},
+  timestamp = {2009.06.20}
+}
+
+@INPROCEEDINGS{HandwrittenHuette93,
+  author = {Heutte, L.and Moreau, J.V.and Plessis, B.and Plagnaud, J.L.and Lecourtier,
+	Y},
+  title = {Handwritten numeral recognition based on multiple featureextractors},
+  booktitle = {Proceedings of the Second International Conference on Document Analysis
+	and Recognition},
+  year = {1993},
+  pages = {167-170},
+  month = {Oct}
+}
+
+@ARTICLE{hustructurecode,
+  author = {J. Hu and H. Yan},
+  title = {Structural Primitive Extraction and Coding for Hand-written Numeral
+	Recognition},
+  journal = {Pattern Recognition},
+  year = {1998},
+  volume = {31},
+  pages = {493–509},
+  number = {5},
+  owner = {TOSHIBA},
+  timestamp = {2009.06.20}
+}
+
+@ARTICLE{jaintemplates,
+  author = {A. K. Jain and D. Zongken},
+  title = {Representation and recognition of handwritten digits using deformable
+	templates},
+  journal = {IEEE Trans. on PAMI},
+  year = { 1997},
+  volume = {19},
+  pages = {1386–1391},
+  number = {12},
+  owner = {TOSHIBA},
+  timestamp = {2009.06.20}
+}
+
+@ARTICLE{multicategorydiscripminstion21,
+  author = {K. Bennett, O. Mangasarian,},
+  title = {Multicategory Discrimination via Linear Programming},
+  journal = {Optimization Methods and Software},
+  year = {1994},
+  volume = {3},
+  pages = { 27-39},
+  owner = {Maha},
+  timestamp = {2008.12.01}
+}
+
+@INPROCEEDINGS{ocrDatabase17,
+  author = {N. Kharma and M. Ahmed and R.Ward},
+  title = {A new comprehensive database of handwritten words, numbers and signatures
+	used for OCR testing},
+  booktitle = {In Proc of IEEE Canandian conference on electrical and computer engineering},
+  year = {1999},
+  pages = {766 768},
+  owner = {Maha},
+  timestamp = {2008.12.01}
+}
+
+@BOOK{MathBook25,
+  title = {Advanced Engineering Mathematics},
+  publisher = {Wiley},
+  year = {2006},
+  author = {E. Kreyszig},
+  address = {New York},
+  edition = {9th Edition},
+  owner = {Maha},
+  timestamp = {2008.12.11}
+}
+
+@ARTICLE{visionfeatures5,
+  author = {L. Teow, and K. Loe},
+  title = {Robust vision-based features and classification schemes for off-line
+	handwritten digit recognition},
+  journal = {Pattern Recognition},
+  year = { 2007},
+  volume = {40},
+  pages = {1816-1824},
+  number = {6},
+  owner = {Maha},
+  timestamp = {2008.12.01}
+}
+
+@ARTICLE{Lauertrainable7,
+  author = {F. Lauer and Ching Y. Suen and G. Bloch},
+  title = {A trainable feature extractor for handwritten digit recognition},
+  journal = {Pattern Recognition},
+  year = {2007},
+  volume = {40},
+  pages = {1816--1824},
+  number = {6},
+  month = jun,
+  owner = {Maha},
+  timestamp = {2008.12.01},
+}
+
+@INPROCEEDINGS{Gradient1,
+  author = {Y. LeCun and L. Bottou and Y. Bengio and P. Haffner},
+  title = {Gradient-Based Learning Applied to Document Recognition},
+  year = {1998},
+  volume = {86},
+  number = {11},
+  pages = {2278-2324},
+  month = {nov},
+  organization = {IEEE},
+  journal = {Proceedings of the IEEE},
+  owner = {Maha},
+  timestamp = {2008.12.01}
+}
+
+@ARTICLE{ImageMomentSimon96,
+  author = {Simon X. Liao and Miroslaw Pawlak},
+  title = {On Image Analysis by Moments},
+  journal = {IEEE Trans. Pattern Anal. Mach. Intell.},
+  year = {1996},
+  volume = {18},
+  pages = {254--266},
+  number = {3},
+  address = {Washington, DC, USA},
+  doi = {http://dx.doi.org/10.1109/34.485554},
+  issn = {0162-8828},
+  publisher = {IEEE Computer Society}
+}
+
+@ARTICLE{Liunormalization,
+  author = {C. Liu and  K. Nakashima and  H. Sako and H. Fujisawa},
+  title = {Handwritten digit recognition: investigation of normalization and
+	feature extraction techniques},
+  journal = {Pattern Recognition},
+  year = {2004},
+  volume = {37},
+  pages = {265 – 279},
+  owner = {TOSHIBA},
+  timestamp = {2009.06.20}
+}
+
+@ARTICLE{liunormalizegradient,
+  author = {Cheng-Lin Liu},
+  title = {Normalization-Cooperated Gradient Feature Extraction for Handwritten
+	Character Recognition,},
+  journal = { IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year = {2007},
+  volume = {29},
+  pages = {1465-1469},
+  number = {8},
+  month = {AUGUST},
+  owner = {TOSHIBA},
+  timestamp = {2009.06.20}
+}
+
+@ARTICLE{benchmarking3,
+  author = {Cheng-Lin Liu and Kazuki Nakashima and Hiroshi Sako and Hiromichi
+	Fujisawa},
+  title = {Handwritten digit recognition: benchmarking of state-of-the-art techniques},
+  journal = {Pattern Recognition},
+  year = {2003},
+  volume = {36},
+  pages = {2271- 2285},
+  number = {10},
+  month = {Oct},
+  owner = {Maha},
+  timestamp = {2008.12.01}
+}
+
+@INPROCEEDINGS{liugradiantquadratic,
+  author = {H. Liu and X. Ding},
+  title = {Handwritten Character Recognition Using Gradient Feature and Quadratic
+	Classifier with Multiple Discrimination Schemes},
+  booktitle = {Proceedings of the 2005 Eight International Conference on Document
+	Analysis and Recognition (ICDAR’05)},
+  year = {2005},
+  owner = {TOSHIBA},
+  timestamp = {2009.06.20}
+}
+
+@INPROCEEDINGS{farsiarabic12,
+  author = {S. Mozaffari and K. Faez and M. Ziaratban},
+  title = {Structural decomposition and statistical description of Farsi/Arabic
+	handwritten numeric characters},
+  booktitle = {ICDAR},
+  year = {2005},
+  pages = {I: 237--241},
+  bibsource = {http://www.visionbib.com/bibliography/char1015.html#TT89002},
+  owner = {Maha},
+  timestamp = {2008.12.01},
+
+}
+
+@ARTICLE{seokdependentfeatu,
+  author = {Il-Seok Oh and  J. Lee and C. Suen},
+  title = { Analysis of Class Separation and Combination of Class Dependent
+	Features for Handwriting Recognition},
+  journal = { IEEE Transactions on Pattern Analysis and Machine Intelligence,},
+  year = {1999},
+  volume = {21},
+  pages = {1089-1094},
+  number = {10},
+  month = {October },
+  owner = {TOSHIBA},
+  timestamp = {2009.06.20}
+}
+
+@ARTICLE{arabicdatabase16,
+  author = {Y. Al Ohali and M. Cheriet and C. Suen},
+  title = {Databases for recognition of handwritten Arabic cheques},
+  journal = {Pattern Recognition},
+  year = {2003},
+  volume = {36},
+  pages = {111--121},
+  number = {1},
+  month = jan,
+  bibsource = {http://www.visionbib.com/bibliography/char1031.html#TT90314},
+  owner = {Maha},
+  timestamp = {2008.12.01},
+ }
+
+@ARTICLE{NumericalStringLuiz04,
+  author = {Luiz E. Soares de Oliveira and Robert Sabourin and Fl{\'a}vio Bortolozzi
+	and Ching Y. Suen},
+  title = {Automatic Recognition of Handwritten Numerical Strings: {A} Recognition
+	and Verification Strategy},
+  journal = {IEEE Trans. Pattern Anal. Mach. Intell},
+  year = {2002},
+  volume = {24},
+  pages = {1438--1454},
+  number = {11},
+  bibdate = {2004-09-02},
+  bibsource = {DBLP, http://dblp.uni-trier.de/db/journals/pami/pami24.html#OliveiraSBS02},
+
+}
+
+@INPROCEEDINGS{pairwise22,
+  author = {D. Price and S. Knerr and L. Personnaz and G. Dreyfus},
+  title = {Pairwise neural network classifiers with probabilistic outputs},
+  booktitle = {Advances in Neural Information Processing Systems 7 (NIPS-94)},
+  year = {1995},
+  pages = {1109–1116,},
+  owner = {Maha},
+  timestamp = {2008.12.01}
+}
+
+@BOOK{PatternBook10,
+  title = {Pattern Classification},
+  publisher = {Wiley},
+  year = {2000.},
+  author = {R. Duda, P. Hart, D. Stork},
+  address = {New York},
+  edition = {2nd Edition},
+  owner = {Maha},
+  timestamp = {2008.12.01}
+}
+
+@INPROCEEDINGS{HistorcalOCR,
+  author = {Mori S and Suen CY},
+  title = {Historical review of OCR research and development},
+  booktitle = {Proc. IEEE},
+  year = {1992},
+  volume = {80},
+  pages = {1029–1058},
+  owner = {TOSHIBA},
+  timestamp = {2009.06.20}
+}
+
+@INPROCEEDINGS{EnglishArabic15,
+  author = {Fady N. Said and Rita A. Yacoub and Ching Y. Suen},
+  title = {Recognition of English and Arabic Numerals using a Dynamic Number
+	of Hidden Neurons},
+  booktitle = {ICDAR},
+  year = {1999},
+  pages = {237--240},
+  bibdate = {2002-08-20},
+
+  owner = {Maha},
+  timestamp = {2008.12.01}
+
+}
+
+@ARTICLE{Shiagradient,
+  author = {M. Shia and Y. Fujisawab and T. Wakabayashia and F. Kimuraa},
+  title = {Handwritten Numeral Recognition using Gradient and Curvature of Gray
+	Scale Image},
+  journal = {Pattern Recognition},
+  year = {2002},
+  volume = {35},
+  pages = {2051 – 2059},
+  owner = {TOSHIBA},
+  timestamp = {2009.06.20}
+}
+
+@ARTICLE{paresian13,
+  author = {H. Soltanzadeh and M. Rahmati},
+  title = {Recognition of Persian handwritten digits using image profiles of
+	multiple orientations},
+  journal = {Pattern Recognition Letters},
+  year = {2004},
+  volume = {25},
+  pages = {1569--1576},
+  number = {14},
+  month = oct,
+  bibsource = {http://www.visionbib.com/bibliography/char1029.html#TT90124},
+  owner = {Maha},
+  timestamp = {2008.12.01},
+  url = {http://www.sciencedirect.com/science/article/B6V15-4CKFNMM-3/2/cf49f2699728c9d3fcf93180f4a59b21}
+}
+
+@ARTICLE{SirkantangradientContor,
+  author = {G. Srikantan and S. Lam and S. Srihari},
+  title = {Gradient-based Contour Encoding for Character Recognition},
+  journal = {Pattern Recognition},
+  year = {1996},
+  volume = {29},
+  pages = {1147-1160},
+  owner = {TOSHIBA},
+  timestamp = {2009.06.20}
+}
+
+@ARTICLE{MultifeaMullevelYuan98,
+  author = {Yuan Y. Tang and Lo-Ting Tu and Jiming Liu and Seong-Whan Lee and
+	Win-Win Lin and Ing-Shyh Shyu},
+  title = {Offline Recognition of Chinese Handwriting by Multifeature and Multilevel
+	Classification},
+  journal = {IEEE Trans. Pattern Anal. Mach. Intell.},
+  year = {1998},
+  volume = {20},
+  pages = {556--561},
+  number = {5},
+  address = {Washington, DC, USA},
+  doi = {http://dx.doi.org/10.1109/34.682186},
+  issn = {0162-8828},
+  publisher = {IEEE Computer Society}
+}
+
+@ARTICLE{TrierFeature,
+  author = {O. Trier and A. Jain and T. Taxt},
+  title = {Feature Extraction Methods for Character Recognition-A Survey},
+  journal = {Patten recognition},
+  year = {1996},
+  volume = {29},
+  pages = {641-662},
+  owner = {TOSHIBA},
+  timestamp = {2009.06.20}
+}
+
+@INPROCEEDINGS{SpeedAutomaticHong97,
+  author = {Yi-Hong Tseng and Chi-Chang Kuo and Hsi-Jian Lee},
+  title = {Speeding-up Chinese Character Recognition in an Automatic Document
+	Reading System},
+  booktitle = {ICDAR '97: Proceedings of the 4th International Conference on Document
+	Analysis and Recognition},
+  year = {1997},
+  pages = {629--632},
+  address = {Washington, DC, USA},
+  publisher = {IEEE Computer Society},
+  isbn = {0-8186-7898-4}
+}
+
+@INPROCEEDINGS{EigenTsymbal02,
+  author = {Alexey Tsymbal and Seppo Puuronen and Mykola Pechenizkiy and Matthias
+	Baumgarten and David Patterson},
+  title = {Eigenvector-Based Feature Extraction for Classification},
+  booktitle = {Proceedings of the Fifteenth International Florida Artificial Intelligence
+	Research Society Conference},
+  year = {2002},
+  pages = {354--358},
+  publisher = {AAAI Press},
+  isbn = {1-57735-141-X}
+}
+
+@ARTICLE{GeneralklYang02,
+  author = {J. Yang and J. Y. Yang},
+  title = {Generalized {K}-{L} transform based combined feature extraction},
+  journal = {Pattern Recognition},
+  year = {2002},
+  volume = {35},
+  pages = {295--297},
+  number = {1},
+  month = jan,
+  bibsource = {http://www.visionbib.com/bibliography/pattern600.html#TT46910},
+  url = {http://www.sciencedirect.com/science/article/B6V14-4477X94-W/2/53baeab0499b0b90974dd3ef08e11d96}
+}
+
+@CONFERENCE{hybridfeatureextraction4,
+  author = {P. Zhang and T. Bui and C. Suen},
+  title = {Hybrid feature extraction and feature selection for improving recognition
+	accuracy of handwritten numerals},
+  booktitle = {Proceedings of the 2005 Eight International Conference on Document
+	Analysis and Recognition},
+  year = {2005},
+  owner = {Maha},
+  timestamp = {2008.12.01}
+}
+

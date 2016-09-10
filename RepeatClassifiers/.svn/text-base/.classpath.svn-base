@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="var" path="MyProject/Mit/log4j-1.2.15.jar" sourcepath="/MyProject/java"/>
+	<classpathentry exported="true" kind="var" path="MyProject/poi-3.0.2-FINAL-20080204.jar"/>
+	<classpathentry kind="lib" path="F:/AUC/Programs/libsvm.jar" sourcepath="E:/downloads/unzipped/libsvm-2.88/libsvm-2.88/java"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

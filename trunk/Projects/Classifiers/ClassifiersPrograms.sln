@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual C++ Express 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ClassifiersPrograms", "ClassifiersPrograms\ClassifiersPrograms.vcproj", "{7A077EDB-5A7B-437A-AECD-625A37B53FE7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NeuralNetworks", "NeuralNetworks\NeuralNetworks.vcproj", "{7E930F68-42EA-4E71-8701-ACA8B3228A53}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A077EDB-5A7B-437A-AECD-625A37B53FE7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7A077EDB-5A7B-437A-AECD-625A37B53FE7}.Debug|Win32.Build.0 = Debug|Win32
+		{7A077EDB-5A7B-437A-AECD-625A37B53FE7}.Release|Win32.ActiveCfg = Release|Win32
+		{7A077EDB-5A7B-437A-AECD-625A37B53FE7}.Release|Win32.Build.0 = Release|Win32
+		{7E930F68-42EA-4E71-8701-ACA8B3228A53}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7E930F68-42EA-4E71-8701-ACA8B3228A53}.Debug|Win32.Build.0 = Debug|Win32
+		{7E930F68-42EA-4E71-8701-ACA8B3228A53}.Release|Win32.ActiveCfg = Release|Win32
+		{7E930F68-42EA-4E71-8701-ACA8B3228A53}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

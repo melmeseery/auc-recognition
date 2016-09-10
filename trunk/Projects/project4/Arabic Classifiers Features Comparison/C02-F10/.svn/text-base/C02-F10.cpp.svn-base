@@ -1,0 +1,27 @@
+// C02-F10.cpp : Defines the entry point for the console application.
+//
+
+// OVO Linear Classifier with Local Concavity
+
+#include "stdafx.h"
+//#include "Creating_Ensemble_Validation_Results.h"
+#include "TRAIN.h"
+#include "TEST.h"
+#include "conio.h"
+#include<iostream>
+using namespace std;
+
+
+int _tmain(int argc, _TCHAR* argv[])
+{
+	//Create_Ensemble_Validation_Results();
+	//TRAIN();
+	TEST();
+
+	cout<<"Finished."<<endl;
+	getch();
+}
+
+
+//				Summary
+// Accuracy = 97.26%

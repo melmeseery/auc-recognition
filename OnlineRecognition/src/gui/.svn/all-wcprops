@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/226/OnlineRecognition/src/gui
+END
+Page.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/225/OnlineRecognition/src/gui/Page.java
+END
+PageDisplayFrame.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/226/OnlineRecognition/src/gui/PageDisplayFrame.java
+END
+StrokeGroupTableModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/225/OnlineRecognition/src/gui/StrokeGroupTableModel.java
+END
+TableFrame.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/226/OnlineRecognition/src/gui/TableFrame.java
+END
+DrawingSheetTesting.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/223/OnlineRecognition/src/gui/DrawingSheetTesting.java
+END
+GuiPageModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/226/OnlineRecognition/src/gui/GuiPageModel.java
+END
+HandleStroke.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/223/OnlineRecognition/src/gui/HandleStroke.java
+END
+DrawingDebugUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/225/OnlineRecognition/src/gui/DrawingDebugUtils.java
+END
+NewStrokeEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/223/OnlineRecognition/src/gui/NewStrokeEvent.java
+END
+StrokeGroup.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/226/OnlineRecognition/src/gui/StrokeGroup.java
+END
+DrawingSheet.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/226/OnlineRecognition/src/gui/DrawingSheet.java
+END
+ColorRenderer.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/225/OnlineRecognition/src/gui/ColorRenderer.java
+END
+StrokeDisplayFrame.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/226/OnlineRecognition/src/gui/StrokeDisplayFrame.java
+END

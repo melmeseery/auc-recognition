@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/199/trunk/Saved/DigitRecognition/applications/subMuliClassifiers
+END
+RunHierarchicalClassifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/199/trunk/Saved/DigitRecognition/applications/subMuliClassifiers/RunHierarchicalClassifier.java
+END
+RunOVOLibLinear.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/199/trunk/Saved/DigitRecognition/applications/subMuliClassifiers/RunOVOLibLinear.java
+END
+RunMultiClassFeatureTestingCode.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/199/trunk/Saved/DigitRecognition/applications/subMuliClassifiers/RunMultiClassFeatureTestingCode.java
+END
+RunMergeClassifierThenSaveData.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/199/trunk/Saved/DigitRecognition/applications/subMuliClassifiers/RunMergeClassifierThenSaveData.java
+END
+RunValidationClassifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/199/trunk/Saved/DigitRecognition/applications/subMuliClassifiers/RunValidationClassifier.java
+END
+RunMultiClassFeaturesTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/199/trunk/Saved/DigitRecognition/applications/subMuliClassifiers/RunMultiClassFeaturesTest.java
+END
+RunECOCclassifiers.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/199/trunk/Saved/DigitRecognition/applications/subMuliClassifiers/RunECOCclassifiers.java
+END
+RunCombinationEcocClassifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/199/trunk/Saved/DigitRecognition/applications/subMuliClassifiers/RunCombinationEcocClassifier.java
+END

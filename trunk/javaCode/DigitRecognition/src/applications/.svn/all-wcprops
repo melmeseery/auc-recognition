@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/201/trunk/myjava/DigitRecognition/src/applications
+END
+RunDataFileConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/189/trunk/myjava/DigitRecognition/src/applications/RunDataFileConverter.java
+END
+RunFeatureWithWekaClassifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/151/trunk/myjava/DigitRecognition/src/applications/RunFeatureWithWekaClassifier.java
+END
+RunWekaAllCombinations.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/141/trunk/myjava/DigitRecognition/src/applications/RunWekaAllCombinations.java
+END
+RunWekaFeatureClassifierTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/153/trunk/myjava/DigitRecognition/src/applications/RunWekaFeatureClassifierTest.java
+END
+RunWekaClassifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/141/trunk/myjava/DigitRecognition/src/applications/RunWekaClassifier.java
+END

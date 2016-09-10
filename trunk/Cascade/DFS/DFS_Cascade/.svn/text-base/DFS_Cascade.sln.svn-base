@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual C++ Express 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DFS_Cascade", "DFS_Cascade.vcproj", "{F1D9D9D1-DDD2-4190-BD52-D39C376BA6BF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Random Choices", "..\Random Choices\Random Choices.vcproj", "{BB384A33-6DD0-4292-8CF3-6EE5E4FAF774}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1D9D9D1-DDD2-4190-BD52-D39C376BA6BF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F1D9D9D1-DDD2-4190-BD52-D39C376BA6BF}.Debug|Win32.Build.0 = Debug|Win32
+		{F1D9D9D1-DDD2-4190-BD52-D39C376BA6BF}.Release|Win32.ActiveCfg = Release|Win32
+		{F1D9D9D1-DDD2-4190-BD52-D39C376BA6BF}.Release|Win32.Build.0 = Release|Win32
+		{BB384A33-6DD0-4292-8CF3-6EE5E4FAF774}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BB384A33-6DD0-4292-8CF3-6EE5E4FAF774}.Debug|Win32.Build.0 = Debug|Win32
+		{BB384A33-6DD0-4292-8CF3-6EE5E4FAF774}.Release|Win32.ActiveCfg = Release|Win32
+		{BB384A33-6DD0-4292-8CF3-6EE5E4FAF774}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/199/trunk/Saved/DigitRecognition/classifiers/command
+END
+TorchCommandClassifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/199/trunk/Saved/DigitRecognition/classifiers/command/TorchCommandClassifier.java
+END
+CommandClassifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/199/trunk/Saved/DigitRecognition/classifiers/command/CommandClassifier.java
+END
+LibLinearCommandClassifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/199/trunk/Saved/DigitRecognition/classifiers/command/LibLinearCommandClassifier.java
+END
+CommandClassifierController.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/199/trunk/Saved/DigitRecognition/classifiers/command/CommandClassifierController.java
+END
+LibSvmCommandClassifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/199/trunk/Saved/DigitRecognition/classifiers/command/LibSvmCommandClassifier.java
+END

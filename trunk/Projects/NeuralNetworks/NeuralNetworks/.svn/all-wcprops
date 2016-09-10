@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/80/trunk/MyProjects/NeuralNetworks/NeuralNetworks
+END
+model_5
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/80/trunk/MyProjects/NeuralNetworks/NeuralNetworks/model_5
+END
+neuralNetworks.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/80/trunk/MyProjects/NeuralNetworks/NeuralNetworks/neuralNetworks.cpp
+END
+NeuralNetworks.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/80/trunk/MyProjects/NeuralNetworks/NeuralNetworks/NeuralNetworks.vcproj
+END
+NeuralNetworks.vcproj.MAHALAPTOP.Maha.user
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/80/trunk/MyProjects/NeuralNetworks/NeuralNetworks/NeuralNetworks.vcproj.MAHALAPTOP.Maha.user
+END
+TRAIN_DATA_BITS.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/80/trunk/MyProjects/NeuralNetworks/NeuralNetworks/TRAIN_DATA_BITS.h
+END
+TEST_DATA_BITS.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/80/trunk/MyProjects/NeuralNetworks/NeuralNetworks/TEST_DATA_BITS.h
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/201/trunk/myjava/DigitRecognition/src/classifiers
+END
+GeneralClassifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/188/trunk/myjava/DigitRecognition/src/classifiers/GeneralClassifier.java
+END
+LibSVMSingleClassifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/198/trunk/myjava/DigitRecognition/src/classifiers/LibSVMSingleClassifier.java
+END
+MultiClassClassifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/182/trunk/myjava/DigitRecognition/src/classifiers/MultiClassClassifier.java
+END
+LibLinearSingleClassifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/198/trunk/myjava/DigitRecognition/src/classifiers/LibLinearSingleClassifier.java
+END
+SingleClassifiers.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/201/trunk/myjava/DigitRecognition/src/classifiers/SingleClassifiers.java
+END
+wekaClassifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/201/trunk/myjava/DigitRecognition/src/classifiers/wekaClassifier.java
+END
+MultiClassifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/201/trunk/myjava/DigitRecognition/src/classifiers/MultiClassifier.java
+END

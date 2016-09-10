@@ -1,0 +1,191 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/204/trunk/ALLMatlab/FeatLib
+END
+RunFeature.m
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/204/trunk/ALLMatlab/FeatLib/RunFeature.m
+END
+ConcavityVectorFE.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/204/trunk/ALLMatlab/FeatLib/ConcavityVectorFE.m
+END
+Concavity.m
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/204/trunk/ALLMatlab/FeatLib/Concavity.m
+END
+Local_Gradient_proj.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/204/trunk/ALLMatlab/FeatLib/Local_Gradient_proj.m
+END
+OVO35FeaturesLatin.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/204/trunk/ALLMatlab/FeatLib/OVO35FeaturesLatin.m
+END
+getFeatureNameCount.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/204/trunk/ALLMatlab/FeatLib/getFeatureNameCount.m
+END
+Generate_Concavity_Map.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/204/trunk/ALLMatlab/FeatLib/Generate_Concavity_Map.m
+END
+Down_Sample.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/204/trunk/ALLMatlab/FeatLib/Down_Sample.m
+END
+TotalNumOfTrnsFE_for6vs9.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/204/trunk/ALLMatlab/FeatLib/TotalNumOfTrnsFE_for6vs9.m
+END
+Kirsh4_g.m
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/204/trunk/ALLMatlab/FeatLib/Kirsh4_g.m
+END
+real_arctan.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/204/trunk/ALLMatlab/FeatLib/real_arctan.m
+END
+Num_of_Crossings.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/204/trunk/ALLMatlab/FeatLib/Num_of_Crossings.m
+END
+Local_Concavity_h.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/204/trunk/ALLMatlab/FeatLib/Local_Concavity_h.m
+END
+GetMatlabProfile.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/204/trunk/ALLMatlab/FeatLib/GetMatlabProfile.m
+END
+ZC_Creating_Cpp_Datasets.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/204/trunk/ALLMatlab/FeatLib/ZC_Creating_Cpp_Datasets.m
+END
+gmask_Local_Gradient_proj.m
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/204/trunk/ALLMatlab/FeatLib/gmask_Local_Gradient_proj.m
+END
+Centroid16FE.m
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/204/trunk/ALLMatlab/FeatLib/Centroid16FE.m
+END
+RunFeatureForC.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/204/trunk/ALLMatlab/FeatLib/RunFeatureForC.m
+END
+ScriptToRunFeatures.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/204/trunk/ALLMatlab/FeatLib/ScriptToRunFeatures.m
+END
+FixedSizeProfile_2.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/204/trunk/ALLMatlab/FeatLib/FixedSizeProfile_2.m
+END
+RawImage_Wavelet_FE.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/204/trunk/ALLMatlab/FeatLib/RawImage_Wavelet_FE.m
+END
+Generate_Gaussian_Mask.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/204/trunk/ALLMatlab/FeatLib/Generate_Gaussian_Mask.m
+END
+Projections.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/204/trunk/ALLMatlab/FeatLib/Projections.m
+END
+GetChainCode4.m
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/204/trunk/ALLMatlab/FeatLib/GetChainCode4.m
+END
+ReadImages.m
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/204/trunk/ALLMatlab/FeatLib/ReadImages.m
+END
+Kirsh4.m
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/204/trunk/ALLMatlab/FeatLib/Kirsh4.m
+END
+NumOfPxlsFE.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/204/trunk/ALLMatlab/FeatLib/NumOfPxlsFE.m
+END
+NumOfTrnsFE.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/204/trunk/ALLMatlab/FeatLib/NumOfTrnsFE.m
+END
+TotalNumOfTrnsFE.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/204/trunk/ALLMatlab/FeatLib/TotalNumOfTrnsFE.m
+END
+OVO35Features.m
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/204/trunk/ALLMatlab/FeatLib/OVO35Features.m
+END
+ComputeFeatures.m
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/204/trunk/ALLMatlab/FeatLib/ComputeFeatures.m
+END

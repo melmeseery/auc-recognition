@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/213/OnlineRecognition/src/lib
+END
+GeneralUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/212/OnlineRecognition/src/lib/GeneralUtils.java
+END
+ComputationsGeometry.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/212/OnlineRecognition/src/lib/ComputationsGeometry.java
+END
+CurveFitData.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/212/OnlineRecognition/src/lib/CurveFitData.java
+END
+ZernikeFE.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/212/OnlineRecognition/src/lib/ZernikeFE.java
+END
+lib.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/213/OnlineRecognition/src/lib/lib.java
+END
+GeometryUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/212/OnlineRecognition/src/lib/GeometryUtil.java
+END
+ZernikeMoments.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/212/OnlineRecognition/src/lib/ZernikeMoments.java
+END

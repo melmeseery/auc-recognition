@@ -1,0 +1,22 @@
+clear
+clc
+
+load training_set
+load mu mu
+
+
+disp('applying PCA...')
+[PCcoeff, PCvec] = pca(training_set(:,1:10e3)',100);
+
+PCA_training_set= PCvec'*training_set;
+
+large_N_PCcoeff=PCcoeff;
+save large_N_PCcoeff large_N_PCcoeff
+
+plot(PCcoeff)
+
+accumulated_PCcoeff=[];
+for n=1:length(PCcoeff)
+    accumulated_PCcoeff=[accumulated_PCcoeff sum(PCcoeff(1:n
+end
+

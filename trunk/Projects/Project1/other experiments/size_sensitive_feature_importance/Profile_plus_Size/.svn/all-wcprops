@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/size_sensitive_feature_importance/Profile_plus_Size
+END
+Train.asv
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/size_sensitive_feature_importance/Profile_plus_Size/Train.asv
+END
+net.mat
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/size_sensitive_feature_importance/Profile_plus_Size/net.mat
+END
+training_set.mat
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/size_sensitive_feature_importance/Profile_plus_Size/training_set.mat
+END
+FixedSizeProfile_2.m
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/size_sensitive_feature_importance/Profile_plus_Size/FixedSizeProfile_2.m
+END
+confusion_matrix.mat
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/size_sensitive_feature_importance/Profile_plus_Size/confusion_matrix.mat
+END
+Train.m
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/size_sensitive_feature_importance/Profile_plus_Size/Train.m
+END
+testing_set.mat
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/size_sensitive_feature_importance/Profile_plus_Size/testing_set.mat
+END
+Test.m
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/size_sensitive_feature_importance/Profile_plus_Size/Test.m
+END
+accuracy.mat
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/size_sensitive_feature_importance/Profile_plus_Size/accuracy.mat
+END
+GetMatlabProfile.m
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/size_sensitive_feature_importance/Profile_plus_Size/GetMatlabProfile.m
+END
+training_labels.mat
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/size_sensitive_feature_importance/Profile_plus_Size/training_labels.mat
+END
+avg_bbox_area.mat
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/size_sensitive_feature_importance/Profile_plus_Size/avg_bbox_area.mat
+END
+testing_labels.mat
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/size_sensitive_feature_importance/Profile_plus_Size/testing_labels.mat
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/104/RepeatClassifiers/src/classifiers/command
+END
+CommandClassifierController.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/104/RepeatClassifiers/src/classifiers/command/CommandClassifierController.java
+END
+LibSvmCommandClassifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/104/RepeatClassifiers/src/classifiers/command/LibSvmCommandClassifier.java
+END
+TorchCommandClassifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/104/RepeatClassifiers/src/classifiers/command/TorchCommandClassifier.java
+END
+CommandClassifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/104/RepeatClassifiers/src/classifiers/command/CommandClassifier.java
+END

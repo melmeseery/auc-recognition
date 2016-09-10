@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/206/trunk/ALLMatlab/ModifyMINIST
+END
+validateGeneratedSet.m
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/206/trunk/ALLMatlab/ModifyMINIST/validateGeneratedSet.m
+END
+removeObjects.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/206/trunk/ALLMatlab/ModifyMINIST/removeObjects.m
+END
+viewMnistImage.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/206/trunk/ALLMatlab/ModifyMINIST/viewMnistImage.m
+END
+MainScript.m
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/206/trunk/ALLMatlab/ModifyMINIST/MainScript.m
+END
+removenoise.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/206/trunk/ALLMatlab/ModifyMINIST/removenoise.m
+END
+ModifyDatabase.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/206/trunk/ALLMatlab/ModifyMINIST/ModifyDatabase.m
+END

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/205/trunk/ALLMatlab/Features/ArabicFeatures
+END
+loadTST.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/205/trunk/ALLMatlab/Features/ArabicFeatures/loadTST.m
+END
+ComputeFeatures.m
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/205/trunk/ALLMatlab/Features/ArabicFeatures/ComputeFeatures.m
+END
+TestFeature.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/205/trunk/ALLMatlab/Features/ArabicFeatures/TestFeature.m
+END
+GenerateFullFeatures.m
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/205/trunk/ALLMatlab/Features/ArabicFeatures/GenerateFullFeatures.m
+END
+FeatureVector.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/205/trunk/ALLMatlab/Features/ArabicFeatures/FeatureVector.m
+END
+LoadMNISTDB.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/205/trunk/ALLMatlab/Features/ArabicFeatures/LoadMNISTDB.m
+END
+ScriptFeature.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/205/trunk/ALLMatlab/Features/ArabicFeatures/ScriptFeature.m
+END
+OVO.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/205/trunk/ALLMatlab/Features/ArabicFeatures/OVO.m
+END
+loadTR.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/205/trunk/ALLMatlab/Features/ArabicFeatures/loadTR.m
+END
+RunDigitsFeatures.m
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/205/trunk/ALLMatlab/Features/ArabicFeatures/RunDigitsFeatures.m
+END

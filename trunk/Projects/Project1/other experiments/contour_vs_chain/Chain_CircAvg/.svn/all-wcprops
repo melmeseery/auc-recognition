@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/contour_vs_chain/Chain_CircAvg
+END
+ChainCode_Avg.m
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/contour_vs_chain/Chain_CircAvg/ChainCode_Avg.m
+END
+net.mat
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/contour_vs_chain/Chain_CircAvg/net.mat
+END
+training_set.mat
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/contour_vs_chain/Chain_CircAvg/training_set.mat
+END
+Test.asv
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/contour_vs_chain/Chain_CircAvg/Test.asv
+END
+confusion_matrix.mat
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/contour_vs_chain/Chain_CircAvg/confusion_matrix.mat
+END
+Train.m
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/contour_vs_chain/Chain_CircAvg/Train.m
+END
+testing_set.mat
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/contour_vs_chain/Chain_CircAvg/testing_set.mat
+END
+ChainCode.m
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/contour_vs_chain/Chain_CircAvg/ChainCode.m
+END
+Test.m
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/contour_vs_chain/Chain_CircAvg/Test.m
+END
+accuracy.mat
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/contour_vs_chain/Chain_CircAvg/accuracy.mat
+END
+FixedSizeChain_CircularAvg_2.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/contour_vs_chain/Chain_CircAvg/FixedSizeChain_CircularAvg_2.m
+END
+training_labels.mat
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/contour_vs_chain/Chain_CircAvg/training_labels.mat
+END
+testing_labels.mat
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/contour_vs_chain/Chain_CircAvg/testing_labels.mat
+END

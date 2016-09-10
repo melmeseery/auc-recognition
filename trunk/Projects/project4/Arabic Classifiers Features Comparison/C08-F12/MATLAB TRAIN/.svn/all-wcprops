@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/85/trunk/project4/Arabic%20Classifiers%20Features%20Comparison/C08-F12/MATLAB%20TRAIN
+END
+Forming_SIGMA_AND_MU_cpp.m
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/85/trunk/project4/Arabic%20Classifiers%20Features%20Comparison/C08-F12/MATLAB%20TRAIN/Forming_SIGMA_AND_MU_cpp.m
+END
+VALIDATE.m
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/85/trunk/project4/Arabic%20Classifiers%20Features%20Comparison/C08-F12/MATLAB%20TRAIN/VALIDATE.m
+END
+forming_PCA_matrix_cpp_for_GC.m
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/85/trunk/project4/Arabic%20Classifiers%20Features%20Comparison/C08-F12/MATLAB%20TRAIN/forming_PCA_matrix_cpp_for_GC.m
+END
+TRAIN.m
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/85/trunk/project4/Arabic%20Classifiers%20Features%20Comparison/C08-F12/MATLAB%20TRAIN/TRAIN.m
+END
+TEST.m
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/85/trunk/project4/Arabic%20Classifiers%20Features%20Comparison/C08-F12/MATLAB%20TRAIN/TEST.m
+END
+Creating_Ensemble_Validation_Results.m
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/85/trunk/project4/Arabic%20Classifiers%20Features%20Comparison/C08-F12/MATLAB%20TRAIN/Creating_Ensemble_Validation_Results.m
+END

@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/overall_system_test_and_timing/(0.5,0.3)
+END
+Test.asv
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/overall_system_test_and_timing/(0.5,0.3)/Test.asv
+END
+confusion_matrix.mat
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/overall_system_test_and_timing/(0.5,0.3)/confusion_matrix.mat
+END
+Test.m
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/overall_system_test_and_timing/(0.5,0.3)/Test.m
+END
+accuracy.mat
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/overall_system_test_and_timing/(0.5,0.3)/accuracy.mat
+END
+GetMatlabProfile.m
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/overall_system_test_and_timing/(0.5,0.3)/GetMatlabProfile.m
+END
+recognition_time.mat
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/overall_system_test_and_timing/(0.5,0.3)/recognition_time.mat
+END
+Centroid16FE.m
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/overall_system_test_and_timing/(0.5,0.3)/Centroid16FE.m
+END
+FixedSizeProfile_2.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/overall_system_test_and_timing/(0.5,0.3)/FixedSizeProfile_2.m
+END
+ConcavityVectorFE.m
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/overall_system_test_and_timing/(0.5,0.3)/ConcavityVectorFE.m
+END
+SVM_Classifier.mat
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/overall_system_test_and_timing/(0.5,0.3)/SVM_Classifier.mat
+END
+FS_net.mat
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/overall_system_test_and_timing/(0.5,0.3)/FS_net.mat
+END
+avg_bbox_area.mat
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/overall_system_test_and_timing/(0.5,0.3)/avg_bbox_area.mat
+END
+NumOfTrnsFE.m
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/overall_system_test_and_timing/(0.5,0.3)/NumOfTrnsFE.m
+END
+NumOfPxlsFE.m
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/overall_system_test_and_timing/(0.5,0.3)/NumOfPxlsFE.m
+END
+TotalNumOfTrnsFE_for6vs9.m
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/overall_system_test_and_timing/(0.5,0.3)/TotalNumOfTrnsFE_for6vs9.m
+END
+TotalNumOfTrnsFE.m
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/overall_system_test_and_timing/(0.5,0.3)/TotalNumOfTrnsFE.m
+END

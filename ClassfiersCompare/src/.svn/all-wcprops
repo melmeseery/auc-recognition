@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/105/ClassfiersCompare/src
+END
+RunFeaturesClassifiers.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/105/ClassfiersCompare/src/RunFeaturesClassifiers.h
+END
+RunClassifiers.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/96/ClassfiersCompare/src/RunClassifiers.h
+END
+LibraryFunctions.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/96/ClassfiersCompare/src/LibraryFunctions.h
+END
+RunOVAClassifiers.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/105/ClassfiersCompare/src/RunOVAClassifiers.cpp
+END
+AccuracyComputation.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/105/ClassfiersCompare/src/AccuracyComputation.h
+END
+ClassfiersCompare.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/105/ClassfiersCompare/src/ClassfiersCompare.cpp
+END
+RunOVAClassifiers.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/96/ClassfiersCompare/src/RunOVAClassifiers.h
+END
+TwoClassClassifiers.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/105/ClassfiersCompare/src/TwoClassClassifiers.cpp
+END
+RunFeaturesClassifiers.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/105/ClassfiersCompare/src/RunFeaturesClassifiers.cpp
+END
+RunClassifiers.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/96/ClassfiersCompare/src/RunClassifiers.cpp
+END
+TwoClassClassifiers.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/96/ClassfiersCompare/src/TwoClassClassifiers.h
+END
+AccuracyComputation.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/105/ClassfiersCompare/src/AccuracyComputation.cpp
+END
+LibraryFunctions.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/96/ClassfiersCompare/src/LibraryFunctions.cpp
+END

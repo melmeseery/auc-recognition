@@ -1,0 +1,12 @@
+function  feat=ComputeFeatures(image)
+   rowColumn=0;  %% 1 column, 2 rows fixed,
+   %less than zero (0, -1, -2) no fixed but bounding box(used with split with fixed nubmer of size)
+   %%%%%%%  -1 use column in   splits , -2 use row, 0 use both 
+   constantSize=30;  %%5 the size of image (row, column or size 
+   ByColumn=1;
+    NoSplits=1;  %% 0 no splits use all features ( must be rowcolumn 1 or 2)   and 1 use splits
+    SizeORSplit=1;   %% 1 use the sconstant as NumberOfSplits  2 use sconstant as split size
+    sConstant=10;
+    
+    
+feat=OurFeatures(image,rowColumn,constantSize,NoSplits,ByColumn,SizeORSplit,sConstant);

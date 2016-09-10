@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="var" path="MyProject/Mit/log4j-1.2.15.jar"/>
+	<classpathentry exported="true" kind="var" path="MyProject/poi-3.0.2-FINAL-20080204.jar"/>
+	<classpathentry kind="var" path="aucLib/libsvm.jar"/>
+	<classpathentry kind="lib" path="D:/AUC/Programs/JarFiles/liblinear-1.33-with-deps.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/WekaCode"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,232 @@
+10
+
+dir
+291
+http://auc-recognition.googlecode.com/svn/trunk/project2/Final%20Classifiers%20Comparison
+http://auc-recognition.googlecode.com/svn
+
+
+
+2008-06-19T19:27:20.968750Z
+70
+maha
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+c19fac24-2e32-11df-8971-ebb891de2ff2
+
+Pairwise Linear MNIST
+dir
+
+Linear MAHDBase
+dir
+
+OVO SVM Gaussian MADBase
+dir
+
+OVO Linear SVM MADBase
+dir
+
+Torch Files
+dir
+
+Pairwise Linear MAHDBase
+dir
+
+Finding Best Variance for Parzen MNIST
+dir
+
+Parzen MNIST
+dir
+
+SVM Gaussian MNIST
+dir
+
+PCA Quadratic MNIST
+dir
+
+Finding Best Num of Hidden Units for PCA_ANN MAHDBase
+dir
+
+Finding Best Variance for Parzen MAHDBase
+dir
+
+Final Classifiers Comparison.suo
+file
+
+
+
+
+2016-03-17T20:53:13.742324Z
+931afc1549517630e06d238480abf81d
+2008-06-19T19:27:20.968750Z
+70
+maha
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+196096
+
+Finding Best Number of Hidden Units for ANN MAHDBase
+dir
+
+New Folder
+dir
+
+SVM Gaussian MAHDBase
+dir
+
+ANN MNIST
+dir
+
+Finding Best Number of Hidden Units for PCA_ANN MNIST
+dir
+
+KNN3 MAHDBase
+dir
+
+OVO Linear SVM MNIST
+dir
+
+OVO SVM Gaussian MNIST
+dir
+
+KNN5 MAHDBase
+dir
+
+ANN MAHDBase
+dir
+
+LeNet 5 MNIST
+dir
+
+Final Classifiers Comparison.sln
+file
+
+
+
+
+2016-03-17T20:53:13.742324Z
+6c15f0dc596d49af98ffe60f938528fc
+2008-06-14T23:27:28.900551Z
+56
+maha
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+15606
+
+Finding Best Number of Hidden Units for ANN MNIST
+dir
+
+PCA ANN MNIST
+dir
+
+Final Classifiers Comparison
+dir
+
+Final Classifiers Comparison.ncb
+file
+
+
+
+
+2016-03-17T20:53:13.742324Z
+c89eeb70dc081bc0cbd8025d1c677938
+2008-06-19T19:27:20.968750Z
+70
+maha
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2706432
+
+LeNet 5 MAHDBase
+dir
+
+KNN3 MNIST
+dir
+
+Parzen MAHDBase
+dir
+
+PCA ANN MAHDBase
+dir
+
+Linear MNIST
+dir
+
+debug
+dir
+
+KNN5 MNIST
+dir
+
+PCA Quadratic MAHDBase
+dir
+

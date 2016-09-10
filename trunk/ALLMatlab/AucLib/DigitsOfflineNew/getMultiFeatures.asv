@@ -1,0 +1,34 @@
+function y=getMultiFeatures(L,rowColumn,NoSplits,SizeORSplit,sConstant)
+
+
+if (NoSplits==0)
+    y=ExtractRowColumnFeatures(L, rowColumn);
+elseif (NoSplits==1)
+    if (rowColumn==-1) 
+       y=splitFeatures(L,SizeORSplit,sConstant);
+    elseif (rowColumn==-2) 
+       y=splitFeatures(L',SizeORSplit,sConstant);
+    elseif (rowColumn==0)
+  
+        
+         y1=splitFeatures(L,SizeORSplit,sConstant);
+          y2=splitFeatures(L',SizeORSplit,sConstant);
+         
+          y=[y1 y2];
+        
+    end 
+      elseif (rowColumn==-11)
+  
+        
+         y=splitFeatures(L,SizeORSplit,sConstant);
+        
+         
+          
+        
+    end 
+    
+    
+    
+end 
+
+    

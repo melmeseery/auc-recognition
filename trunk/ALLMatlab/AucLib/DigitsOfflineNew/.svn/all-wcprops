@@ -1,0 +1,233 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/262/trunk/ALLMatlab/AucLib/DigitsOfflineNew
+END
+BuildDiagonal.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/260/trunk/ALLMatlab/AucLib/DigitsOfflineNew/BuildDiagonal.m
+END
+trainTestNeuralNetwork.m
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/261/trunk/ALLMatlab/AucLib/DigitsOfflineNew/trainTestNeuralNetwork.m
+END
+TrainTestFusion.m
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/261/trunk/ALLMatlab/AucLib/DigitsOfflineNew/TrainTestFusion.m
+END
+readImages.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/259/trunk/ALLMatlab/AucLib/DigitsOfflineNew/readImages.m
+END
+writeTrainSet.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/257/trunk/ALLMatlab/AucLib/DigitsOfflineNew/writeTrainSet.m
+END
+RunTest.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/259/trunk/ALLMatlab/AucLib/DigitsOfflineNew/RunTest.m
+END
+writeErrorFile.m
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/253/trunk/ALLMatlab/AucLib/DigitsOfflineNew/writeErrorFile.m
+END
+digitTobinary.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/261/trunk/ALLMatlab/AucLib/DigitsOfflineNew/digitTobinary.m
+END
+ClassifierFusion.m
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/260/trunk/ALLMatlab/AucLib/DigitsOfflineNew/ClassifierFusion.m
+END
+ComputeFeatures.asv
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/253/trunk/ALLMatlab/AucLib/DigitsOfflineNew/ComputeFeatures.asv
+END
+getData.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/253/trunk/ALLMatlab/AucLib/DigitsOfflineNew/getData.m
+END
+Untitled2.m
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/253/trunk/ALLMatlab/AucLib/DigitsOfflineNew/Untitled2.m
+END
+ComputeFeatures.m
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/259/trunk/ALLMatlab/AucLib/DigitsOfflineNew/ComputeFeatures.m
+END
+RunVariousTest.m
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/259/trunk/ALLMatlab/AucLib/DigitsOfflineNew/RunVariousTest.m
+END
+ExtractRowColumnFeatures.m
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/253/trunk/ALLMatlab/AucLib/DigitsOfflineNew/ExtractRowColumnFeatures.m
+END
+extractTrainValidation.m
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/261/trunk/ALLMatlab/AucLib/DigitsOfflineNew/extractTrainValidation.m
+END
+RunFuisionTests.m
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/261/trunk/ALLMatlab/AucLib/DigitsOfflineNew/RunFuisionTests.m
+END
+svmclassify2.m
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/260/trunk/ALLMatlab/AucLib/DigitsOfflineNew/svmclassify2.m
+END
+TestSvmFusion.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/260/trunk/ALLMatlab/AucLib/DigitsOfflineNew/TestSvmFusion.m
+END
+splitFeatures.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/258/trunk/ALLMatlab/AucLib/DigitsOfflineNew/splitFeatures.m
+END
+TrainSvmData.m
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/261/trunk/ALLMatlab/AucLib/DigitsOfflineNew/TrainSvmData.m
+END
+MyCodeTrails.m
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/259/trunk/ALLMatlab/AucLib/DigitsOfflineNew/MyCodeTrails.m
+END
+TestSVMData.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/260/trunk/ALLMatlab/AucLib/DigitsOfflineNew/TestSVMData.m
+END
+TrainSvm.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/259/trunk/ALLMatlab/AucLib/DigitsOfflineNew/TrainSvm.m
+END
+OVOTest.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/260/trunk/ALLMatlab/AucLib/DigitsOfflineNew/OVOTest.m
+END
+ClassifierFusionTraining.m
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/262/trunk/ALLMatlab/AucLib/DigitsOfflineNew/ClassifierFusionTraining.m
+END
+OurFeatures.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/259/trunk/ALLMatlab/AucLib/DigitsOfflineNew/OurFeatures.m
+END
+TestSVM.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/259/trunk/ALLMatlab/AucLib/DigitsOfflineNew/TestSVM.m
+END
+writeErrorFile (2).m
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/259/trunk/ALLMatlab/AucLib/DigitsOfflineNew/writeErrorFile%20(2).m
+END
+NeuralNetworkFusionMultiValidation.m
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/262/trunk/ALLMatlab/AucLib/DigitsOfflineNew/NeuralNetworkFusionMultiValidation.m
+END
+SaveFusionData.m
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/260/trunk/ALLMatlab/AucLib/DigitsOfflineNew/SaveFusionData.m
+END
+SaveResults.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/253/trunk/ALLMatlab/AucLib/DigitsOfflineNew/SaveResults.m
+END
+svmdecision.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/260/trunk/ALLMatlab/AucLib/DigitsOfflineNew/svmdecision.m
+END
+OVOTestMatlab.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/261/trunk/ALLMatlab/AucLib/DigitsOfflineNew/OVOTestMatlab.m
+END
+OVOTestLibLinear.m
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/260/trunk/ALLMatlab/AucLib/DigitsOfflineNew/OVOTestLibLinear.m
+END
+preprocess.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/260/trunk/ALLMatlab/AucLib/DigitsOfflineNew/preprocess.m
+END
+getMultiFeatures.asv
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/253/trunk/ALLMatlab/AucLib/DigitsOfflineNew/getMultiFeatures.asv
+END
+getMultiFeatures.m
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/259/trunk/ALLMatlab/AucLib/DigitsOfflineNew/getMultiFeatures.m
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/206/trunk/ALLMatlab/ModifyMINIST/data
+END
+getMaxSampleCount.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/206/trunk/ALLMatlab/ModifyMINIST/data/getMaxSampleCount.m
+END
+getADDataBasePath.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/206/trunk/ALLMatlab/ModifyMINIST/data/getADDataBasePath.m
+END
+getObjects.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/206/trunk/ALLMatlab/ModifyMINIST/data/getObjects.m
+END

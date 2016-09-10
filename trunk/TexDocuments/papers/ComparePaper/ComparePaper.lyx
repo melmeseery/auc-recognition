@@ -1,0 +1,5530 @@
+#LyX 1.5.5 created this file. For more info see http://www.lyx.org/
+\lyxformat 276
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+%\textsc{}%\documentstyle[times,twocolumn,latex8]{article}
+ 
+\usepackage{latex8}
+
+\usepackage{times}
+
+
+\usepackage{subfigure}
+
+%------------------------------------------------------------------------- 
+% take the % away on next line to produce the final camera-ready version 
+
+
+%------------------------------------------------------------------------- 
+\end_preamble
+\options times,twocolumn
+\language english
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\paperfontsize 10
+\spacing single
+\papersize default
+\use_geometry false
+\use_amsmath 0
+\use_esint 0
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle empty
+\tracking_changes false
+\output_changes false
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Comparing Arabic and Latin Digit Recognition Problems
+\end_layout
+
+\begin_layout Author
+Sherif Abdelazeem 
+\newline
+ 
+\shape italic
+shazeem@aucegypt.edu
+\shape default
+
+\newline
+ 
+\shape italic
+Electronics Engineering Dept., The American University in Cairo
+\shape default
+
+\newline
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%The objective of this study is to compare the performances of different
+ classification techniques on both Arabic and Latin (English) digit recognition
+ problems.
+ The comparison gives insights into the difference between the natures of
+ the two problems.
+ The analysis shows that the Arabic digits problem is an easier problem
+ due to....
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Abstract
+The presented work compares and analyzes between the performances of Latin
+ and Arabic digit recognition on different classifiers.
+ The comparison should give insights into the difference between the natures
+ of the two problems.
+ The comparison is preformed on 10 well-known classification methods.
+ The study uses MNIST database for Latin digits and MADBase as the Arabic
+ digit database.
+ The analysis shows that Arabic digit recognition problem is easier than
+ that of Latin digits.
+ This is because the interclass difference in case of Latin digits is smaller
+ to than in the Arabic digit.
+ Also, the variance of writing each Latin digits is larger to than the variance
+ of writing Arabic digits.
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+% of Arabic digits.
+  % that Latin digits interclass distance is smaller in Latin to that of
+ the Arabic digits.
+ od this is due to interclass distance between each pair of typical Latin
+ digits   % a comparison between Arabic digit and Latin digit recognition
+ problems.
+ The comparison is based on benchmark result on both databases using 10
+ different classification methods.
+ The benchmarks results variance in writing each of Latin digits is in general
+ higher than that in case of Arabic 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Standard
+Handwritten digit recognition problem can be seen as a sub-task of the more
+ general Optical Character Recognition (OCR) problem.
+ However, there are some applications (e.g., postal code and bank checks reading)
+ that are restricted to recognizing digits but require very high accuracy
+ and speed.
+ While recognition of handwritten Latin digits has been extensively investigated
+ using various techniques 
+\begin_inset LatexCommand cite
+key "Gradient1, Comparison2"
+
+\end_inset
+
+, too little work has been done on Arabic digits.
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%This is most probably because there is no large free on-line database for
+ Arabic digits like that of Latin (e.g.
+ MNIST).
+ 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In a previous paper 
+\begin_inset LatexCommand cite
+key "ADBase9"
+
+\end_inset
+
+, we have taken a step to encourage doing more research on Arabic digits
+ by building a large dataset: the Arabic Digits database (ADBase) which
+ is composed of 60,000 digits for training and 10,000 for testing written
+ by 700 different writers.
+\end_layout
+
+\begin_layout Standard
+This paper compares between performances of different classification techniques
+ upon both Arabic and Latin digit recognition problems (on MADBase and MNIST,
+ respectively).
+ It is well known that there is no universally powerful or universally weak
+ classifier 
+\begin_inset LatexCommand cite
+key "PatternBook10"
+
+\end_inset
+
+.
+ The performance of a certain classification technique depends on how it
+ matches the problem at hand.
+ Realizing this, comprehensive comparative studies 
+\begin_inset LatexCommand cite
+key "empiricalcomp11"
+
+\end_inset
+
+ compare the performances of classifiers upon many different problems.
+ However, since researchers doing such comparative studies do not have a
+ direct experience with the problems they use, they do not give reasons
+ why a certain classification technique performs poorly on a certain problem
+ while having a good performance on another.
+ However, in our case, we have an experience with the two problems used
+ in the comparative study: the Arabic and Latin digit recognition.
+ This gives us the chance to interpret the comparative study results and
+ gain more insight into the natures of the two problems.
+\end_layout
+
+\begin_layout Standard
+The remaining of the paper is organized as follows.
+ Section 
+\begin_inset LatexCommand ref
+reference "sec:previouswork"
+
+\end_inset
+
+ is a survey of previous research on Arabic handwritten digit recognition
+ problem.
+ The classifiers and databases used in the comparison are described in section
+ 
+\begin_inset LatexCommand ref
+reference "sec:benchmark"
+
+\end_inset
+
+.
+ Section 
+\begin_inset LatexCommand ref
+reference "sec:compare"
+
+\end_inset
+
+ reports and analyzes the performances of the classification techniques
+ on both the Latin digits (on MNIST) and Arabic digits (on MADbase).
+ Finally, the conclusion is in section 
+\begin_inset LatexCommand ref
+reference "sec:conclusion"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Section
+Previous Work
+\end_layout
+
+\begin_layout Standard
+\begin_inset LatexCommand label
+name "sec:previouswork"
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+begin{table}
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|}
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+hline
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%Latin Equivalent & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+hline
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%Printed &   &   &   &   &   &   &   &   &   &   
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+hline
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%Typical Handwritten &   &   &   &   &   &   &   &   &   &   
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+hline
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%Other Writing Style & -- & -- & -- &   & -- & -- & -- & -- & -- & -- 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+hline
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+end{tabular}
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+caption{ARABIC PRINTED AND HANDWRITTEN DIGITS}
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+label{tab:ARABICPRINTEDANDHANDWRITTENDIGITS}
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+end{table}
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%Naming conventions for different numeral systems may be confusing.
+ Digits used in Europe and several other countries sometimes are called
+ "Arabic Numbers"; and digits used in Arab world are sometimes called "Hindi
+ Numbers".
+ A different naming convention is used in this paper.
+ Digits used in Europe will be referred to as "Latin Digits" and that used
+ in Arab world as "Arabic Digits".
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%It is worthwhile to mention here that Arabic and Persian handwritten digits
+ (digits used in Iran) are similar but not identical.
+ However, there are some writing styles for Persian digits that are very
+ similar to Arabic.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%Tables 1 and 2 show Arabic and Persian handwritten digits with different
+ writing styles as well as their printed versions.
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%TABLE 2
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%PERSIAN PRINTED AND HANDWRITTEN DIGITS
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%Latin Equivalent0123456789
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%Printed          
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%Typical Handwritten          
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%Other Writing Style --     ------
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%Mozaffari 
+\backslash
+cite{farsiarabic12} extracts structural information form Persian digits,
+ which in turn are used to extract statistical information describing the
+ digits.
+ They used then a nearest neighbor 4 classifier to get an accuracy of 94.44
+\backslash
+%.
+ Soltanzadeh et al.
+ 
+\backslash
+cite{paresian13} calculates number of features in multiple orientations
+ of the digit images.
+ They presented these features to an SVM to achieve an accuracy of 99.57
+\backslash
+%.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+Al-Omari et al.
+ 
+\begin_inset LatexCommand cite
+key "indiannumerals14"
+
+\end_inset
+
+ propose a system for recognizing Arabic digits from '1' to '9'.
+ They used a scale-, translation-, rotation-invariant feature vector to
+ train a probabilistic neural network (PNN).
+ Their database was composed of 720 digits for training and 480 digits for
+ testing written by 120 persons.
+ They achieved 99.75% accuracy.
+ Said et al.
+\begin_inset LatexCommand cite
+key "EnglishArabic15"
+
+\end_inset
+
+ used pixel values of the 
+\begin_inset Formula $16\times20$
+\end_inset
+
+ size-normalized digit images as features.
+ They fed these values to an Artificial Neural Network (ANN) where number
+ of its hidden units is determined dynamically.
+ They used a training set of 2400 digits and a testing set of 200 digits
+ written by 20 persons to achieve 94% accuracy.
+ Note that results of different works can not be compared because the used
+ databases do not have the same sizes or formats.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%In a previous paper 
+\backslash
+cite{ADBase9}, we devised a two-stage system for recognizing Arabic digits.
+ The first stage is an ANN fed with a short but powerful feature vector
+ to handle easy-to-classify digits.
+ Ambiguous digits are rejected to the more powerful second stage which is
+ an SVM fed with a long feature vector.
+ The system had a good timing performance and achieved 99.15
+\backslash
+% accuracy on the ADBase.
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+One of the reasons why there is little research in Arabic digit recognition
+ is that there is no free online Arabic digits database similar to that
+ available for Latin digits.
+ Digits databases collected in some other works are of small sizes and limited
+ accessibility 
+\begin_inset LatexCommand cite
+key "arabicdatabase16,ocrDatabase17"
+
+\end_inset
+
+.
+ The following section describes the classification techniques used in the
+ comparison.
+ 
+\end_layout
+
+\begin_layout Section
+The classification comparison
+\end_layout
+
+\begin_layout Standard
+\begin_inset LatexCommand label
+name "sec:benchmark"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Since the objective of this paper is to compare and analyzes the performances
+ of different classification techniques on Arabic digits with their performances
+ on Latin.
+ To make such a comparison valid, the two databases of Arabic and Latin
+ digits should be of the same format.
+ Since we have chosen the MNIST to be the used Latin digits database, a
+ Modified version of the ADBase 
+\begin_inset LatexCommand cite
+key "ADBase9"
+
+\end_inset
+
+ (MADBase) that has the same size and format of MNIST has been created.
+ Samples of 10 digits from MNIST and their corresponding digits from MADBase
+ are shown in fig.
+ 
+\begin_inset LatexCommand ref
+reference "fig:fig2a"
+
+\end_inset
+
+ and 
+\begin_inset LatexCommand ref
+reference "fig:fig2b"
+
+\end_inset
+
+ respectively.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%we are going to report the performances of to use in comparison between
+ both databases
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+The present study uses 10 different classification techniques to compare
+ between the MNIST and MADBase databases.
+ The comparison is made using the following classification methods; LeNet
+ 5 
+\begin_inset LatexCommand cite
+key "Gradient1"
+
+\end_inset
+
+, Prazen window using RBF kernel 
+\begin_inset LatexCommand cite
+key "PatternBook10"
+
+\end_inset
+
+, two layers neural network, two different k-nearest neighborhood classifiers
+ using 
+\begin_inset Formula $k=3$
+\end_inset
+
+ and 
+\begin_inset Formula $k=5$
+\end_inset
+
+, principle component analysis (PCA) with quadratic classifier, PCA with
+ neural network classifier 
+\begin_inset LatexCommand cite
+key "PatternBook10"
+
+\end_inset
+
+, One versus All (OVA) linear classifiers, One versus One (OVO) linear classifie
+rs 
+\begin_inset LatexCommand cite
+key "polychotomous20"
+
+\end_inset
+
+, OVO SVM using linear kernel 
+\begin_inset LatexCommand cite
+key "SVM24"
+
+\end_inset
+
+ and finally OVO SVM using RPF kernel.
+\end_layout
+
+\begin_layout Standard
+Each of these 10 classifiers is fed directly with gray-scale pixel values
+ of digit images without feature extraction step.
+ Some of these classifiers have parameters which need to be specified (e.g.,
+ the number of hidden units of ANN).
+ Such parameters are selected so as to give the best performance on a validation
+ set; which is a set of 10,000 digits selected randomly from the training
+ set.
+ The performances of many of the classifiers used in this study have been
+ evaluated on MNIST previously in 
+\begin_inset LatexCommand cite
+key "Gradient1"
+
+\end_inset
+
+.
+ However, their performances are re-evaluated in this study using the same
+ classifiers implementations used with MADBase.
+ This ensures the validity of the comparison made between performances of
+ different classifiers on MNIST and MADBase.
+ Classification techniques used in this study are implemented in C++ using
+ Torch machine learning library 
+\begin_inset LatexCommand cite
+key "torch"
+
+\end_inset
+
+.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+subsection {The  Database}
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%The classifiers configurations and parameter setting strategies used with
+ Latin digits are the same as that used with Arabic digits.
+ The C parameter of the linear SVM was set to 0.1.
+ The kernel variance of the Parzen window was set to 1.
+ The first 40 components of PCA were used for both PCA+Quadratic and PCA+ANN.
+ The number of hidden units for ANN was set to 450, and to 240 for ANN+PCA.
+ We used $C = 10$ and $
+\backslash
+gamma = 0.02$ for the OVO-rbf-SVM.
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%The MADBase is created from ADBase as follows.
+ For each digit of ADBase, its height (h) and width (w) are calculated,
+ and then the digit is size-normalized to have a new height (hnew) and new
+ width (wnew).
+ The assigned values of hnew and wnew depend on whether h or w is greater
+ than the other.
+ If $h>w$, then hnew is set to 20, and w to floor($20
+\backslash
+times w/h$).
+ If $w>h$, then wnew is set to 20 and hnew to floor($20
+\backslash
+times h/w$).
+ This procedure ensures that each digit of MADBase is confined in a $20
+\backslash
+times 20$ box while its aspect ration is preserved.
+ Note here that the resulting size-normalized digits have gray levels as
+ a result of the anti-aliasing filter used in size-normalization procedure.
+ Then each digit is placed in a 28?28 white background such that its center
+ of gravity coincides with the center of the white background.
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%The MADBase now has the same size and format of MNIST.
+ Actually, MNIST is a modified version of the digits database NIST as MADBase
+ is modified from ADBase.
+ More about how MNIST is modified from NIST can be found in 
+\backslash
+cite{Gradient1}.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%Fig.
+ 2(a) and 2(b)
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%The MADBase is available for free at http://datacenter.aucegypt.edu/shazeem/.
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+begin{figure}
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+centering
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+subfigure[An empty form]{
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%  
+\backslash
+label{fig:fig1a}
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+includegraphics[scale=0.3]{images/fig1a.JPG}}
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%%
+\backslash
+caption{empty}
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+subfigure[A filled Form]{ 
+\backslash
+label{fig:fig1b}
+\backslash
+includegraphics[scale=0.09]{images/fig1b.JPG}}
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+caption{} (a) An empty form, and (b) a filled form.
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+label{fig:fig1}
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+end{figure}     
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%(a)                     (b)
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%Fig.
+ 1.
+ (a) An empty form, and (b) a filled form
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Latin digits Vs.
+ Arabic digits
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%{Comparing the performances of different classifiers on Arabic to that
+ of Latin.} % DIFFERENT CLASSIFIERS ON ARABIC DIGITS TO THAT OF LATIN}
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset LatexCommand label
+name "sec:compare"
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%The goal of this paper is to compare between the performances of different
+ classifiers on Arabic digits to their performances on Latin digits.
+ Table 
+\backslash
+ref{tab:PerformanceMNIST} and 
+\backslash
+ref{tab:PerformanceMADBase} reports the results of different classifiers
+ on both the Arabic and Latin digits
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+The goal of this paper is to compare and analyze the performances of different
+ classifiers on both the Arabic and Latin digits.
+ The comparisons may provide insights into the nature of the two problems.
+ Table 
+\begin_inset LatexCommand ref
+reference "tab:PerformanceMNIST"
+
+\end_inset
+
+ reports the results of different classifiers on both the Arabic and Latin
+ digits.
+ The performances of different classification techniques are compared using
+ 3 metrics.
+ 
+\shape slanted
+The Accuracy (ACC)
+\shape default
+ which is the percentage of test samples that are classified correctly.
+ 
+\shape slanted
+Rejection Rate (RR)
+\shape default
+ is the percentage of test samples that should be rejected to reach an accuracy
+ of 99.5%.
+ Finally, the 
+\shape slanted
+timing performance (T)
+\shape default
+ is measured first by the number of CPU seconds needed to recognize the
+ 10,000 samples of the test set.
+ Fig.
+\begin_inset LatexCommand ref
+reference "fig:fig3"
+
+\end_inset
+
+ displays the bar graph for the results for better visualization of the
+ accuracy comparison.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%This may give us insights into the natures of the two problems.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%In the previous section, the MADBase and MNIST.
+ Results are summarized in table 
+\backslash
+ref{tab:PerformanceMNIST} .
+ We may compare between performances of different classifiers on Arabic
+ and Latin digits by comparing tables 
+\backslash
+ref{tab:PerformanceMNIST} and 
+\backslash
+ref{tab:PerformanceMADBase}.
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%, Fig.
+\backslash
+ref{fig:fig3} displays the bar graph for both results.
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+begin{tabular}{|l|l|l|l|l|l|l|}
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+hline
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%Classifiers & 
+\backslash
+multicolumn{3}{c|}{arbic} & 
+\backslash
+multicolumn{3}{c|}{Latin} 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+cline{2-7}
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+% & Acc & RR & T & Acc & RR & T 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+hline
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%OVA Linear 92.35 41.34 1 & 92.35 & 1 & 2 & 3 & 4 & 6 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+hline
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%OVO Linear 94.25 43.83 5 &  &  &  &  &  &  
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+hline
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%OVO-lin-SVM 94.76 27.61 5 &  &  &  &  &  &  
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+hline
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%KNN, K=3 97.05 15.33 7100 &  &  &  &  &  &  
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+hline
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%KNN, K=5 96.88 12.47 7100 &  &  &  &  &  &  
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+hline
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%Parzen 96.93 12.4 8150 &  &  &  &  &  &  
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+hline
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%PCA+Quadratic 97.75 7.72 8 &  &  &  &  &  &  
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+hline
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%PCA+ANN 97.88 5.27 10 &  &  &  &  &  &  
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+hline
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%ANN 97.91 4.8 46 &  &  &  &  &  &  
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+hline
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%OVO-rbf-SVM 98.5 2.93 2120 &  &  &  &  &  &  
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+hline
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%LeNet 98.9 1.76 90 &  &  &  &  &  &  
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+hline
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+end{tabular}
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+begin{tabular}{|l|l|l|l|}
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+hline
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%Classifier & Acc (
+\backslash
+%) & RR (
+\backslash
+%) & T 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+hline
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%OVA Linear & 92.35 & 41.34 & 1 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+hline
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%OVO Linear & 94.25 & 43.83 & 5 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+hline
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%OVO-lin-SVM & 94.76 & 27.61 & 5 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+hline
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%KNN, K=3 & 97.05 & 15.33 & 7100 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+hline
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%KNN, K=5 & 96.88 & 12.47 & 7100 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+hline
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%Parzen & 96.93 & 12.4 & 8150 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+hline
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%PCA+Quadratic & 97.75 & 7.72 & 8 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+hline
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%PCA+ANN & 97.88 & 5.27 & 10 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+hline
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%ANN & 97.91 & 4.8 & 46 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+hline
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%OVO-rbf-SVM & 98.5 & 2.93 & 2120 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+hline
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%LeNet & 98.9 & 1.76 & 90 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+hline
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+end{tabular}
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide true
+sideways false
+status open
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+
+\size small
+\begin_inset Tabular
+<lyxtabular version="3" rows="13" columns="7">
+<features>
+<column alignment="left" valignment="top" leftline="true" rightline="true" width="0">
+<column alignment="left" valignment="top" rightline="true" width="0">
+<column alignment="left" valignment="top" rightline="true" width="0">
+<column alignment="left" valignment="top" rightline="true" width="0">
+<column alignment="left" valignment="top" rightline="true" width="0">
+<column alignment="left" valignment="top" rightline="true" width="0">
+<column alignment="left" valignment="top" rightline="true" width="0">
+<row topline="true">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+Classifiers 
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="none" valignment="top" topline="true" usebox="none" special="c|">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+Arbic
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="none" valignment="top" topline="true" usebox="none" special="c|">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+Latin
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topline="true">
+<cell alignment="left" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+Acc(%) 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+RR(%) 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+T 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+Acc(%) 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+RR(%) 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+T 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topline="true">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+begin{tabular}{|l|l|l|l|}
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+hline
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%Classifier & Acc (
+\backslash
+%) & RR (
+\backslash
+%) & T 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+hline
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+OVA Linear 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+92.35 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+41.34 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+1 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+96.4 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+13.49 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topline="true">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+OVO Linear 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+94.25 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+43.83 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+5 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+97.72 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+10.38 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+5
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topline="true">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+OVO-lin-SVM 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+94.76 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+27.61 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+97.59 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+8.48 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+5 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topline="true">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+KNN, K=3 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+97.05 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+15.33 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+7100 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+98.13 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+18.38 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+7100
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topline="true">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+KNN, K=5 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+96.88 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+12.47 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+7100 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+98.14 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+4.9 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+7100
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topline="true">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+Parzen 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+96.93 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+12.4 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+8150
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+97.96 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+5.44 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+8150 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topline="true">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+PCA+Quadratic 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+97.75 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+7.72 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+8 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+98.42 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+3.31 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+8 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topline="true">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+PCA+ANN 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+97.88 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+5.27 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+10 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+98.28 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+4.28 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+10 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topline="true">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+ANN 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+97.91 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+4.8 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+46 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+98.21 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+5.33 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+16 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topline="true">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+OVO-rbf-SVM 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+98.5 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+2.93 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+2120
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+98.78 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+2.34 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+1163 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topline="true" bottomline="true">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+LeNet 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+98.9 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+1.76 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+90 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+98.91 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+1.75 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\size small
+90 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Caption
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size small
+Performances of different classification techniques on MNIST and MADBase
+ 
+\begin_inset LatexCommand label
+name "tab:PerformanceMNIST"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+begin{table}
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+centering
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+begin{tabular}{|l|l|l|l|}
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+hline
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%Classifier & Acc (
+\backslash
+%) &   RR (
+\backslash
+%) & T  
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%OVA Linear & 96.4 & 13.49 & 1 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%OVO Linear & 97.72 & 10.38 & 5 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%OVO-lin-SVM & 97.59 & 8.48 & 5 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%KNN, K=3 & 98.13 & 18.38 & 7100 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%KNN, K=5 & 98.14 & 4.9 & 7100 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%Parzen & 97.96 & 5.44 & 8150 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%PCA+Quadratic & 98.42 & 3.31 & 8 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%PCA+ANN & 98.28 & 4.28 & 10 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%ANN & 98.21 & 5.33 & 16 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%OVO-rbf-SVM & 98.78 & 2.34 & 1163 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%LeNet & 98.91 & 1.75 & 90 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+end{tabular}
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+caption{}Performances of different classification techniques on MADBase
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+label{tab:PerformanceMADBase}
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+end{table}
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%ClassifierAcc
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%(%)RR
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%(%)T
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%OVA Linear92.3541.341
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%OVO Linear94.2543.835
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%OVO-lin-SVM94.7627.615
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%KNN, K=397.0515.337100
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%KNN, K=596.8812.477100
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%Parzen96.9312.48150
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%PCA+Quadratic97.757.728
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%PCA+ANN97.885.2710
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%ANN97.914.846
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%OVO-rbf-SVM98.52.932120
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%LeNet98.91.7690
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Standard
+
+\size normal
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+subfigure[MNIST]{
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset LatexCommand label
+name "fig:fig2a"
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/fig2a.JPG
+	scale 50
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+subfigure[MADBase]{
+\end_layout
+
+\end_inset
+
+
+\begin_inset LatexCommand label
+name "fig:fig2b"
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename images/fig2b.JPG
+	scale 50
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Caption
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+Sample digits from MNIST and MADBase.
+ 
+\begin_inset LatexCommand label
+name "fig:fig2"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%Fig.
+ 2.
+ Sample digits from (a) MNIST, and (b) MADBase
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%In this section, we are going to report the performances of 10 different
+ classification techniques on MADBase to serve as benchmark results for
+ future research on Arabic digit recognition.
+ Each of these 10 classifiers will be fed directly with gray-scale pixel
+ values of digit images without feature extraction step.
+ Some of these classifiers have parameters which need to be specified (e.g.,
+ the number of hidden units of ANN).
+ Such parameters are selected so as to give the best performance on a validation
+ set; which is a set of 10,000 digits selected randomly from the training
+ set.
+ The performances of many of the classifiers used in this study have been
+ evaluated on MNIST previously in 
+\backslash
+cite{Gradient1}.
+ However, their performances are re-evaluated in our study using the same
+ classifiers implementations used with MADBase.
+ This ensures the validity of the comparison made between performances of
+ different classifiers on MNIST and MADBase.
+ Classification techniques used in this study are implemented in C++ using
+ Torch machine learning library 
+\backslash
+cite{torch}.
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+Note that the order of arranging the classifiers in Fig.
+\begin_inset LatexCommand ref
+reference "fig:fig3"
+
+\end_inset
+
+ is not arbitrary.
+ They are arranged in a descending order form top to bottom according to
+ their classification errors on MNIST.
+ Hence, we may say that classifiers in Fig.
+\begin_inset LatexCommand ref
+reference "fig:fig3"
+
+\end_inset
+
+ are ordered according to their powerfulness.
+ It is noticed from fig.
+\begin_inset LatexCommand ref
+reference "fig:fig3"
+
+\end_inset
+
+ that classification errors of different classifiers on MADBase follow the
+ same pattern of decay as the case of MNIST.
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+The most interesting observation that may be noticed from Fig.
+\begin_inset LatexCommand ref
+reference "fig:fig3"
+
+\end_inset
+
+ is that although classification errors of the most powerful classifiers
+ in case of MNIST are close to their scores in case of MADBase, there is
+ a huge gap between classification errors of the weakest classifiers in
+ case of MNIST and their classification error for MADBase.
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+An explanation for this may be as follows.
+ The Arabic digit recognition problem is in general easier than that of
+ Latin digits.
+ This is why simple classifiers (like linear and OVO linear) score high
+ on MADBase.
+ However, the percentage of the poorly written digits are close for MADBase
+ and MNIST (both around 1%) and they are equally hard to classify for the
+ weak and the powerful classifiers.
+ See 
+\begin_inset LatexCommand ref
+reference "fig:fig4"
+
+\end_inset
+
+ for the patterns misclassified by LeNet for Arabic digits and Fig.
+\begin_inset LatexCommand ref
+reference "fig:fig5"
+
+\end_inset
+
+ for Latin digits.
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+But why Arabic digit recognition problem is simpler than that of Latin?
+ We believe that there are two reasons.
+ The first one is that the interclass distance between each pair of typical
+ (i.e., not poorly written) Latin digits tend to be smaller than that between
+ pairs of Arabic digits.
+ When interclass distance between two digits is small, any variation in
+ writing one digit will lead this digit to be easily confused with the other.
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Standard
+
+\size normal
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename images/fig3.JPG
+	scale 60
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Caption
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+Comparison of 10 classification techniques on MNIST and MADBase.
+ 
+\begin_inset LatexCommand label
+name "fig:fig3"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%Fig.
+ 3.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+The second reason why Latin digits are harder to classify than Arabic digits
+ is that the variance in writing each of Latin digits is in general higher
+ than that in case of Arabic.
+ In the following two subsections, each of these two proposed reasons is
+ discussed in details.
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Standard
+
+\size normal
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+subfigure[Arabic Digits]{
+\end_layout
+
+\end_inset
+
+
+\begin_inset LatexCommand label
+name "fig:fig6a"
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/fig6arabic.jpg
+	scale 50
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+subfigure[Latin Digits]{
+\end_layout
+
+\end_inset
+
+
+\begin_inset LatexCommand label
+name "fig:fig6b"
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/figblatin.jpg
+	scale 50
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset LatexCommand label
+name "fig:fig6"
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Caption
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+Image at row 
+\begin_inset Formula $i$
+\end_inset
+
+ and column 
+\begin_inset Formula $j$
+\end_inset
+
+ is the result of subtraction digit 
+\begin_inset Formula $j$
+\end_inset
+
+ from digit 
+\begin_inset Formula $i$
+\end_inset
+
+ for (a) Arabic digits, and for(b) Latin digits.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%                                                            
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%(a)(b)
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%Fig.
+ 6.
+ Image at row i and column j is the result of subtraction digit j from digit
+ i for (a) Latin digits, and for (b) Arabic digits
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Interclass distances
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+\begin_inset LatexCommand label
+name "sec:interclass"
+
+\end_inset
+
+ Studying fig.
+ 
+\begin_inset LatexCommand ref
+reference "fig:fig2"
+
+\end_inset
+
+, it is noticed that Latin digits have so many common strokes, and, for
+ many cases, any addition or deletion of a stroke from a Latin digit may
+ lead it to appear as another one.
+ For example, adding a stroke to upper right of the Latin digit '5' will
+ lead it to appear like '9'; and to appear like '6', if a stroke is added
+ at the left bottom of it.
+ Also adding a stroke at left bottom of '9' leads it to appear like '8'.
+ Digit '4' appears already like '9', and removing the upper stroke of '9'
+ leads it to appear like another writing style of '4'.
+ The fact that Latin digits have many common strokes helps Latin digits
+ to be represented using only 7 strokes in a 7- segment display with natural
+ appearance.
+ But looking at Arabic digits in fig.
+ 
+\begin_inset LatexCommand ref
+reference "fig:fig2"
+
+\end_inset
+
+, it is noted that there are not so many common strokes between them, and
+ any attempt to represent them using 7-segment will lead to very artificial
+ appearance (a dot matrix representation is usually used for them).
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Standard
+
+\size normal
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename images/hardlatin.JPG
+	scale 60
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Caption
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+Samples of hard-to-classify Latin digits (misclassified by LeNet).
+ 
+\begin_inset LatexCommand label
+name "fig:fig4"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Standard
+
+\size normal
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename images/hardarabic.JPG
+	scale 60
+
+\end_inset
+
+ 
+\begin_inset LatexCommand label
+name "fig:fig5"
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Caption
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+Samples of hard-to-classify Arabic digits (misclassified by LeNet).
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%Fig.
+ 5.
+ Samples of hard-to-classify Latin digits (misclassified by LeNet).
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%Fig.
+ 4.
+ Samples of hard-to-classify Arabic digits (misclassified by LeNet).
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+A visual illustration of this idea is depicted in Fig.
+\begin_inset LatexCommand ref
+reference "fig:fig6"
+
+\end_inset
+
+ which shows the resulting images from subtracting each digit mean from
+ each of other digits means for both Latin and Arabic digits.
+ The image at row 
+\begin_inset Formula $i$
+\end_inset
+
+ and column 
+\begin_inset Formula $j$
+\end_inset
+
+ is the result of subtracting the mean of digit 
+\begin_inset Formula $j$
+\end_inset
+
+ from that of digit 
+\begin_inset Formula $i$
+\end_inset
+
+; where foreground (white) is represented by '1' and background (black)
+ is represented by '0'.
+ Each pixel resulting from this subtraction is then added to 1, and then
+ the result is divided by 2.
+ Hence, if the result of subtraction for some pixel location is '-1', it
+ appears as black; if '0', it appears as gray; and if '1', it appears as
+ white.
+ Now, if any two digits have a common stroke, the average of their subtraction
+ will be '0' at the location of this stroke; and hence, will appear gray.
+ Non-common strokes appear black or white depending on which digit is subtracted
+ from the other.
+ It is clear from Fig.
+\begin_inset LatexCommand ref
+reference "fig:fig6"
+
+\end_inset
+
+ that Latin digits have many common strokes and hence the gray pixels dominate
+ to the degree that most of the digit pairs are not distinguishable from
+ each other.
+ On the other hand, for Arabic digits, most of digit pairs are quite distinguish
+able.
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Standard
+
+\size normal
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename images/fig7.JPG
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Caption
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+Some Latin digits and their different typical writing styles.
+ 
+\begin_inset LatexCommand label
+name "fig:fig7"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%Fig.
+ 7.
+ Some Latin digits and their different typical writing styles.
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+The above is rather informal evidence.
+ In the following, more formal numerical evidence is going to be introduced.
+ A numerical measure for the interclass distance between a pair of classes
+ 
+\begin_inset Formula $(i,j)$
+\end_inset
+
+, i.e.
+ between digit 
+\begin_inset Formula $i$
+\end_inset
+
+ and digit 
+\begin_inset Formula $j$
+\end_inset
+
+, may be the Euclidean distance 
+\begin_inset Formula $d_{ij}$
+\end_inset
+
+ between their means, 
+\begin_inset Formula \[
+{\rm }d_{ij}=\sqrt{\sum\limits _{\forall x}{\sum\limits _{\forall y}{\left[{\mu_{i}(x,y)-\mu_{j}(x,y}\right]^{2}}}}\]
+
+\end_inset
+
+ where, 
+\begin_inset Formula $i,j=0,1,,9$
+\end_inset
+
+; 
+\begin_inset Formula $x,y=1,2,,28$
+\end_inset
+
+; and 
+\begin_inset Formula $\mu_{i}(x,y)$
+\end_inset
+
+ is the mean value of the pixel at location 
+\begin_inset Formula $(x,y)$
+\end_inset
+
+ of the images of digit 
+\begin_inset Formula $k$
+\end_inset
+
+, 
+\begin_inset Formula \[
+\mu_{k}(x,y)=\frac{1}{N}\sum\limits _{n=1}^{N_{k}}{I_{kn}(x,y)}\]
+
+\end_inset
+
+ where 
+\begin_inset Formula $I_{kn}(x,y)$
+\end_inset
+
+ is the pixel value at location 
+\begin_inset Formula $(x,y)$
+\end_inset
+
+ of the 
+\begin_inset Formula $n^{th}$
+\end_inset
+
+ image of the training set of digit 
+\begin_inset Formula $k$
+\end_inset
+
+, and 
+\begin_inset Formula $N$
+\end_inset
+
+ is the number of training samples of digit 
+\begin_inset Formula $k$
+\end_inset
+
+.
+ A numerical measure for the overall separation between all class pairs
+ (
+\begin_inset Formula $d_{overall}$
+\end_inset
+
+) may be the summation of 
+\begin_inset Formula $d_{ij}$
+\end_inset
+
+ for all 
+\begin_inset Formula $i$
+\end_inset
+
+ and 
+\begin_inset Formula $j$
+\end_inset
+
+, i.e., 
+\begin_inset Formula \[
+{\rm d}_{{\rm overall}}=\sum\limits _{\forall i}{\sum\limits _{\forall j}{d_{ij}}}\]
+
+\end_inset
+
+ The value of 
+\begin_inset Formula $d_{overall}$
+\end_inset
+
+ was found for Arabic digits to be larger than that of Latin by 11.9%.
+ This means that interclass separations between Arabic digits are larger
+ than that in case of Latin.
+ To check the significance of this result, the hypothesis of having the
+ 
+\begin_inset Formula $d_{overall}$
+\end_inset
+
+ equal for both cases Latin and Arabic is checked.
+ To do so, the training set is partitioned into 6 separate subsets, each
+ containing 10,000 samples.
+ The 
+\begin_inset Formula $d_{overall}$
+\end_inset
+
+ measurement is calculated for each subset resulting in 6 different measurements.
+ This is done for both cases Latin and Arabic.
+ A t-test 
+\begin_inset LatexCommand cite
+key "MathBook25"
+
+\end_inset
+
+ is then performed to check the hypothesis that Latin and Arabic have equal
+ mean value of 
+\begin_inset Formula $d_{overall}$
+\end_inset
+
+.
+ The hypothesis was found to have a p-value of 
+\begin_inset Formula $4.3\times10^{-8}$
+\end_inset
+
+, which means that it can be rejected with very small significance level.
+ 
+\end_layout
+
+\begin_layout Subsection
+Variances
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+The second reason why Latin digit recognition problem is harder than that
+ of Arabic is that variances in writing Latin digits are larger than that
+ of Arabic.
+ One measure of variances (scattering) 
+\begin_inset Formula $S_{k}$
+\end_inset
+
+ of some pattern 
+\begin_inset Formula $k$
+\end_inset
+
+ around its mean is the trace of its covariance matrix 
+\begin_inset LatexCommand cite
+key "PatternBook10"
+
+\end_inset
+
+, 
+\begin_inset Formula \[
+S_{k}=tr\left[{\sum\nolimits _{k}{}}\right]=\sum\limits _{i=1}^{d}{\sigma_{ki}^{2}},\]
+
+\end_inset
+
+ ,where 
+\begin_inset Formula $\sum\nolimits _{k}{}$
+\end_inset
+
+is the covariance matrix of pattern 
+\begin_inset Formula $k$
+\end_inset
+
+, 
+\begin_inset Formula $\sigma_{ki}^{2}$
+\end_inset
+
+ is the variance of the 
+\begin_inset Formula $i^{th}$
+\end_inset
+
+ dimension of pattern 
+\begin_inset Formula $k$
+\end_inset
+
+, and 
+\begin_inset Formula $d$
+\end_inset
+
+ is the dimensionality of the pattern.
+ For digit recognition problem, the scattering of some digit 
+\begin_inset Formula $k$
+\end_inset
+
+ around its mean is then given by, 
+\begin_inset Formula \[
+S_{k}=\frac{1}{{N_{k}}}\sum\limits _{n-1}^{N_{k}}{\sum\limits _{\forall x}{\sum\limits _{\forall y}{\left[{I_{kn}(x,y)-\mu_{k}(x,y)}\right]^{2}}}}\]
+
+\end_inset
+
+ A numerical measure for the overall scattering is 
+\begin_inset Formula $S_{overall}=\sum\limits _{k=0}^{9}{S_{k}}$
+\end_inset
+
+.
+ It is found that 
+\begin_inset Formula $S_{overall}$
+\end_inset
+
+ for Latin digits is 27.9% larger than that of Arabic.
+ This means that large deviation from the mean is more probable for Latin
+ digits than that for Arabic.
+ The reason behind this might be the fact that Latin digits have many writing
+ styles as shown in fig.
+ 
+\begin_inset LatexCommand ref
+reference "fig:fig7"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+To check the significance of the 
+\begin_inset Formula $S_{overall}$
+\end_inset
+
+ comparison between Arabic and Latin digits, the training set is partitioned
+ into 6 separate subsets, each containing 10,000 samples.
+ The 
+\begin_inset Formula $S_{overall}$
+\end_inset
+
+ measurement is calculated for each subset resulting in 6 different measurements.
+ This is done for both cases Latin and Arabic.
+ A t-test 
+\begin_inset LatexCommand cite
+key "MathBook25"
+
+\end_inset
+
+ is then performed to check the hypothesis that Latin and Arabic have equal
+ mean value of 
+\begin_inset Formula $S_{overall}$
+\end_inset
+
+.
+ The hypothesis was found to have a p-value of 
+\begin_inset Formula $1.1\times10^{-11}$
+\end_inset
+
+.
+ This means that the hypothesis can be rejected with very small significance
+ level.
+ 
+\end_layout
+
+\begin_layout Section
+Conclusion
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%{CONCLUSION}
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset LatexCommand label
+name "sec:conclusion"
+
+\end_inset
+
+ This paper has taken step to encourage more research on Arabic digit recognitio
+n problem.
+ A comparison between performances of 10 classifiers is made on both Arabic
+ and Latin digit recognition problems.
+ An interesting result of such comparison is that while the performance
+ of the most powerful classifier on Arabic and on Latin digits are close,
+ the weakest classifier gives very good performance on Arabic digits and
+ much worse performance on Latin digits.
+ The reason behind this is suggested to be that Arabic digit recognition
+ problem is in general easier than that of Latin.
+ However, the percentage of poorly written digits are so close in both cases
+ (Arabic and Latin digits), and they are actually hard to classify for both
+ powerful and weak classifiers.
+ An analysis is given for why Arabic digits are in general easier to classify
+ than Latin and it has been found that this is because interclass distances
+ between Arabic digits are larger than that of Latin and variances in writing
+ Arabic digits are smaller.
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%In this paper, we have taken a step to encourage doing more research on
+ Arabic digit recognition problem.
+ A comparison between performances of 10 classifiers has been made on both
+ Arabic and Latin digit recognition problems.
+ An interesting result of such comparison is that while the performance
+ of the most powerful classifier on Arabic and on Latin digits are close,
+ the weakest classifier gives very good performance on Arabic digits and
+ much worse performance on Latin digits.
+ The reason behind this has been suggested to be that Arabic digit recognition
+ problem is in general easier than that of Latin.
+ However, the percentage of poorly written digits are so close in both cases
+ (Arabic and Latin digits), and they are actually hard to classify for both
+ powerful and weak classifiers.
+ An analysis has been given for why Arabic digits are in general easier
+ to classify than Latin and it has been found that this is because interclass
+ distances between Arabic digits are larger than that of Latin and variances
+ in writing Arabic digits are smaller.
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Acknowledgment
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%{ACKNOWLEDGMENT}
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+This research is supported by a grant from the American University in Cairo
+ (AUC).
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+% We are also thankful to all who assisted us in building the database.%:
+ Hossam Hassan, Reem Ater, Nagwa Ibrahim, Mohammed Ismail, Mohammed Khairy,
+ Karim Ater, Mohammed Omran, and Ahmad Ra'fat.
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+enddocument
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+bibliographystyle{plain}
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+bibliographystyle{latex8}
+\end_layout
+
+\end_inset
+
+  
+\end_layout
+
+\end_body
+\end_document

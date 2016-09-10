@@ -1,0 +1,27 @@
+/**
+ * 
+ */
+package tasks;
+
+/**
+ * @author Maha 
+ *
+ */
+public class TaskSettings {
+	private  String name;
+	/**
+	 * 
+	 */
+	public TaskSettings() {
+		
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	 
+
+}

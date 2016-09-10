@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/226/OnlineRecognition/src/data
+END
+DoubleObjects.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/224/OnlineRecognition/src/data/DoubleObjects.java
+END
+DataSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/223/OnlineRecognition/src/data/DataSet.java
+END
+StringLabel.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/224/OnlineRecognition/src/data/StringLabel.java
+END
+IntegerLabel.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/224/OnlineRecognition/src/data/IntegerLabel.java
+END
+Label.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/224/OnlineRecognition/src/data/Label.java
+END
+DataObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/224/OnlineRecognition/src/data/DataObject.java
+END
+InkInterface.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/212/OnlineRecognition/src/data/InkInterface.java
+END
+SimpleInkObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/225/OnlineRecognition/src/data/SimpleInkObject.java
+END
+PointData.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/224/OnlineRecognition/src/data/PointData.java
+END
+GeneraicDataSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/226/OnlineRecognition/src/data/GeneraicDataSet.java
+END

@@ -1,0 +1,413 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/236/trunk/ALLMatlab/AucLib/online
+END
+RunOnlineFeatures.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/231/trunk/ALLMatlab/AucLib/online/RunOnlineFeatures.m
+END
+RunOnlineHMMTrainTest.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/231/trunk/ALLMatlab/AucLib/online/RunOnlineHMMTrainTest.m
+END
+ComputeZeroFeatures.m
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/235/trunk/ALLMatlab/AucLib/online/ComputeZeroFeatures.m
+END
+PointMeans.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/229/trunk/ALLMatlab/AucLib/online/PointMeans.m
+END
+DensityFeatures.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/232/trunk/ALLMatlab/AucLib/online/DensityFeatures.m
+END
+SaveResults.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/229/trunk/ALLMatlab/AucLib/online/SaveResults.m
+END
+writeFeatures.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/231/trunk/ALLMatlab/AucLib/online/writeFeatures.m
+END
+CorrectData.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/235/trunk/ALLMatlab/AucLib/online/CorrectData.m
+END
+readStrokesDataSet.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/235/trunk/ALLMatlab/AucLib/online/readStrokesDataSet.m
+END
+Stroke2Image.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/234/trunk/ALLMatlab/AucLib/online/Stroke2Image.m
+END
+Projections.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/233/trunk/ALLMatlab/AucLib/online/Projections.m
+END
+addMissingClasses.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/232/trunk/ALLMatlab/AucLib/online/addMissingClasses.m
+END
+offline100.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/233/trunk/ALLMatlab/AucLib/online/offline100.m
+END
+removeStrokeFromData.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/234/trunk/ALLMatlab/AucLib/online/removeStrokeFromData.m
+END
+runcodeonline.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/216/trunk/ALLMatlab/AucLib/online/runcodeonline.m
+END
+SmoothPoints.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/233/trunk/ALLMatlab/AucLib/online/SmoothPoints.m
+END
+check_alf_delayed1.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/235/trunk/ALLMatlab/AucLib/online/check_alf_delayed1.m
+END
+replace.m
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/233/trunk/ALLMatlab/AucLib/online/replace.m
+END
+DetectStrokeStoreDirection.m
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/236/trunk/ALLMatlab/AucLib/online/DetectStrokeStoreDirection.m
+END
+preprocessing.asv
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/216/trunk/ALLMatlab/AucLib/online/preprocessing.asv
+END
+writingdirection.asv
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/216/trunk/ALLMatlab/AucLib/online/writingdirection.asv
+END
+resamplenew.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/235/trunk/ALLMatlab/AucLib/online/resamplenew.m
+END
+digits.m
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/235/trunk/ALLMatlab/AucLib/online/digits.m
+END
+preprocessing.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/216/trunk/ALLMatlab/AucLib/online/preprocessing.m
+END
+readStrokes.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/221/trunk/ALLMatlab/AucLib/online/readStrokes.m
+END
+Coswritingdirection.m
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/228/trunk/ALLMatlab/AucLib/online/Coswritingdirection.m
+END
+ScriptRunHMMTrainTest.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/229/trunk/ALLMatlab/AucLib/online/ScriptRunHMMTrainTest.m
+END
+distanceforall.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/228/trunk/ALLMatlab/AucLib/online/distanceforall.m
+END
+distancetomean.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/228/trunk/ALLMatlab/AucLib/online/distancetomean.m
+END
+writeErrorFile.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/231/trunk/ALLMatlab/AucLib/online/writeErrorFile.m
+END
+RowTransitions.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/233/trunk/ALLMatlab/AucLib/online/RowTransitions.m
+END
+getMostThree.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/233/trunk/ALLMatlab/AucLib/online/getMostThree.m
+END
+deletenotneeded3.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/232/trunk/ALLMatlab/AucLib/online/deletenotneeded3.m
+END
+unPackOnlineFeaturesVariables.m
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/230/trunk/ALLMatlab/AucLib/online/unPackOnlineFeaturesVariables.m
+END
+svmeachtwo.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/233/trunk/ALLMatlab/AucLib/online/svmeachtwo.m
+END
+newchaincode.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/221/trunk/ALLMatlab/AucLib/online/newchaincode.m
+END
+resam2.m
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/233/trunk/ALLMatlab/AucLib/online/resam2.m
+END
+linept.m
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/231/trunk/ALLMatlab/AucLib/online/linept.m
+END
+runisolatedarabic.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/216/trunk/ALLMatlab/AucLib/online/runisolatedarabic.m
+END
+MyCodeTrails.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/234/trunk/ALLMatlab/AucLib/online/MyCodeTrails.m
+END
+addedfeatures.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/232/trunk/ALLMatlab/AucLib/online/addedfeatures.m
+END
+require_smoothing.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/233/trunk/ALLMatlab/AucLib/online/require_smoothing.m
+END
+writeTrainSet.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/233/trunk/ALLMatlab/AucLib/online/writeTrainSet.m
+END
+detectingZero.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/232/trunk/ALLMatlab/AucLib/online/detectingZero.m
+END
+resam.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/229/trunk/ALLMatlab/AucLib/online/resam.m
+END
+getMaxMinFromData.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/235/trunk/ALLMatlab/AucLib/online/getMaxMinFromData.m
+END
+ProcessData.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/236/trunk/ALLMatlab/AucLib/online/ProcessData.m
+END
+LengthStroke.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/233/trunk/ALLMatlab/AucLib/online/LengthStroke.m
+END
+MergeStrokes.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/236/trunk/ALLMatlab/AucLib/online/MergeStrokes.m
+END
+ScriptHMM_Hanyruncodeonline.m
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/229/trunk/ALLMatlab/AucLib/online/ScriptHMM_Hanyruncodeonline.m
+END
+make.m
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/233/trunk/ALLMatlab/AucLib/online/make.m
+END
+PreProcessStroke.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/231/trunk/ALLMatlab/AucLib/online/PreProcessStroke.m
+END
+Transitions.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/233/trunk/ALLMatlab/AucLib/online/Transitions.m
+END
+chaincode.m
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/228/trunk/ALLMatlab/AucLib/online/chaincode.m
+END
+Density.m
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/233/trunk/ALLMatlab/AucLib/online/Density.m
+END
+callingLinpt.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/216/trunk/ALLMatlab/AucLib/online/callingLinpt.m
+END
+getNormalizedFeature.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/233/trunk/ALLMatlab/AucLib/online/getNormalizedFeature.m
+END
+PreProcessStrokeOffline.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/234/trunk/ALLMatlab/AucLib/online/PreProcessStrokeOffline.m
+END
+addPinUpColumn.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/232/trunk/ALLMatlab/AucLib/online/addPinUpColumn.m
+END
+OnlineFeatures.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/231/trunk/ALLMatlab/AucLib/online/OnlineFeatures.m
+END
+writingdirection.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/231/trunk/ALLMatlab/AucLib/online/writingdirection.m
+END
+OVO2.m
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/233/trunk/ALLMatlab/AucLib/online/OVO2.m
+END
+chainCode64.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/228/trunk/ALLMatlab/AucLib/online/chainCode64.m
+END
+MergeData.m
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/236/trunk/ALLMatlab/AucLib/online/MergeData.m
+END
+mixing.m
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/233/trunk/ALLMatlab/AucLib/online/mixing.m
+END
+rfds.m
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/221/trunk/ALLMatlab/AucLib/online/rfds.m
+END
+runtesting.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/233/trunk/ALLMatlab/AucLib/online/runtesting.m
+END
+OVO.m
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/231/trunk/ALLMatlab/AucLib/online/OVO.m
+END

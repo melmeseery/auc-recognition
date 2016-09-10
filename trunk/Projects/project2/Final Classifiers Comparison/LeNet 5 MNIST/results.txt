@@ -1,0 +1,5 @@
+Accuracy without rejection: 98.9%
+Accuracy after rejection: 99.5012%
+RR= 1.76%
+th= 0.79461
+Recognition Time= 90

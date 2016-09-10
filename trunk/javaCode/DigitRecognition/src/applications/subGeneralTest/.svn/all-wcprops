@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/195/trunk/myjava/DigitRecognition/src/applications/subGeneralTest
+END
+RunFeatureDigitGeneration.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/178/trunk/myjava/DigitRecognition/src/applications/subGeneralTest/RunFeatureDigitGeneration.java
+END
+RunSimpleTests.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/195/trunk/myjava/DigitRecognition/src/applications/subGeneralTest/RunSimpleTests.java
+END
+RunDisplayFrame.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/178/trunk/myjava/DigitRecognition/src/applications/subGeneralTest/RunDisplayFrame.java
+END
+RunFeatureEvaluater.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/178/trunk/myjava/DigitRecognition/src/applications/subGeneralTest/RunFeatureEvaluater.java
+END
+RunFeatureGenerationAllDigits.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/178/trunk/myjava/DigitRecognition/src/applications/subGeneralTest/RunFeatureGenerationAllDigits.java
+END

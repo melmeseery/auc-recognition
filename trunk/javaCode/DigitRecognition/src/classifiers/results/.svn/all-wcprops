@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/198/trunk/myjava/DigitRecognition/src/classifiers/results
+END
+ClassifierResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/198/trunk/myjava/DigitRecognition/src/classifiers/results/ClassifierResult.java
+END
+ResultSetAccuracyMulitClassifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/181/trunk/myjava/DigitRecognition/src/classifiers/results/ResultSetAccuracyMulitClassifier.java
+END
+Accuracy.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/141/trunk/myjava/DigitRecognition/src/classifiers/results/Accuracy.java
+END
+Classification.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/186/trunk/myjava/DigitRecognition/src/classifiers/results/Classification.java
+END
+ImageErrors.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/195/trunk/myjava/DigitRecognition/src/classifiers/results/ImageErrors.java
+END
+ResultSetAcc.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/188/trunk/myjava/DigitRecognition/src/classifiers/results/ResultSetAcc.java
+END

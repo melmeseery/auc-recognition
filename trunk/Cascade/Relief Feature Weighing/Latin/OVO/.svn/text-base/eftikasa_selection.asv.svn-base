@@ -1,0 +1,102 @@
+clear
+clc
+
+load Scc Scc
+maps=cell(8,1);
+for i=1:8
+    maps{i}=zeros(5,5);
+end
+
+OVO_selected_features=cell(10,10);
+
+fid= fopen('OVO_number_of_features_selected.txt','wt');
+
+th=0.1;
+for a=0:8
+    for b=a+1:9
+
+        [v ordered_features]= sort(Scc{a+1,b+1},'descend');
+
+        for i=1:5
+            f=ordered_features(i);
+            map_no=ceil(f/25);
+            ind=mod(f,25);
+            if(ind==0)
+                ind=25;
+            end
+
+            ind_x=ceil(ind/5);
+            ind_y=mod(ind,5);
+            if(ind_y==0)
+                ind_y=5;
+            end
+
+            %maps{map_no}(ind_x,ind_y)=i;
+
+            if(map_no==1)
+                maps_to_span=[8 1 2];
+            elseif(map_no==8)
+                maps_to_span=[7 8 1];
+            else
+                maps_to_span= map_no-1:map_no+1;
+            end
+
+            if(ind_x==1)
+                ind_x_to_span=[1 2];
+            elseif(ind_x==5)
+                ind_x_to_span=[4 5];
+            else
+                ind_x_to_span= ind_x-1:ind_x+1;
+            end
+
+            if(ind_y==1)
+                ind_y_to_span=[1 2];
+            elseif(ind_y==5)
+                ind_y_to_span=[4 5];
+            else
+                ind_y_to_span= ind_y-1:ind_y+1;
+            end
+
+            for j=maps_to_span
+                for x=ind_x_to_span
+                    for y=ind_y_to_span
+                        maps{j}(x,y)=1;
+                    end
+                end
+            end
+
+
+
+        end
+
+
+        selected_features=[];
+        counter=1;
+        for j=1:8
+            for x=1:4:17
+                for y=1:4:17
+                    if(maps{j}(x:x+3,y:y+3)==1)
+                        selected_features=[selected_features counter];
+                        counter=counter+1;
+                    end
+                end
+            end
+        end
+        OVO_selected_features{a+1,b+1}= selected_features;
+        format = '%d \n';
+        fprintf(fid,format,length(selected_features));
+
+    end
+end
+
+fclose(fid);
+
+save OVO_selected_features OVO_selected_features
+
+
+
+for i=1:8
+    i
+    map=maps{i};
+    map
+end

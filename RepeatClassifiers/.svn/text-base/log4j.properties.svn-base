@@ -1,0 +1,100 @@
+#######################################################################
+	# Categories and levels
+	#######################################################################
+##, FileApp , ConApp ,Ganymede 
+	log4j.rootCategory=ALL, ConApp,FileApp 
+	log4j.category.de.jayefem=INFO
+
+	#######################################################################
+	# Appenders
+	#######################################################################
+
+			# An extra category to a log file
+log4j.category.summary=ALL,A5,ConApp
+log4j.additivity.summary=false
+# A3 is set to be a FileAppender which will log all actions in the application.
+
+log4j.appender.A5=org.apache.log4j.RollingFileAppender
+log4j.appender.A5.layout=org.apache.log4j.PatternLayout
+log4j.appender.A5.layout.ConversionPattern=%-22d{dd/MMM/yyyy HH:mm:ss} - %m%n
+log4j.appender.A5.File=MultiClassifierSummary.log
+log4j.appender.A5.MaxBackupIndex=2
+log4j.appender.A5.MaxFileSize=1500KB
+
+	log4j.category.SummaryDetails=ALL,A8,ConApp
+	log4j.additivity.SummaryDetails=false
+	log4j.appender.A8=org.apache.log4j.RollingFileAppender
+log4j.appender.A8.layout=org.apache.log4j.PatternLayout
+log4j.appender.A8.layout.ConversionPattern=%-22d{dd/MMM/yyyy HH:mm:ss} - %m%n
+log4j.appender.A8.File=MultiClassifierSummary.log
+log4j.appender.A8.MaxBackupIndex=2
+log4j.appender.A8.MaxFileSize=1500KB
+
+
+		# An extra category to a log file
+log4j.category.TorchLog=ALL,A4,ConApp
+log4j.additivity.TorchLog=false
+# A3 is set to be a FileAppender which will log all actions in the application.
+
+log4j.appender.A4=org.apache.log4j.RollingFileAppender
+log4j.appender.A4.layout=org.apache.log4j.PatternLayout
+log4j.appender.A4.layout.ConversionPattern=%-22d{dd/MMM/yyyy HH:mm:ss} - %m%n
+log4j.appender.A4.File=TorchLog.log
+log4j.appender.A4.MaxBackupIndex=2
+log4j.appender.A4.MaxFileSize=1500KB
+
+
+
+		# An extra category to a log file
+log4j.category.commandlog=ALL,A6,ConApp
+log4j.additivity.commandlog=false
+# A3 is set to be a FileAppender which will log all actions in the application.
+
+log4j.appender.A6=org.apache.log4j.RollingFileAppender
+log4j.appender.A6.layout=org.apache.log4j.PatternLayout
+log4j.appender.A6.layout.ConversionPattern=%-22d{dd/MMM/yyyy HH:mm:ss} - %m%n
+log4j.appender.A6.File=commandlog.log
+log4j.appender.A6.MaxBackupIndex=2
+log4j.appender.A6.MaxFileSize=1500KB	
+	
+	
+	
+
+	# An extra category to a log file
+log4j.category.svmLogging=ALL,A3,ConApp
+log4j.additivity.svmLogging=false
+# A3 is set to be a FileAppender which will log all actions in the application.
+
+log4j.appender.A3=org.apache.log4j.RollingFileAppender
+log4j.appender.A3.layout=org.apache.log4j.PatternLayout
+log4j.appender.A3.layout.ConversionPattern=%-22d{dd/MMM/yyyy HH:mm:ss} - %m%n
+log4j.appender.A3.File=SvmLigthResult.log
+log4j.appender.A3.MaxBackupIndex=2
+log4j.appender.A3.MaxFileSize=1500KB
+	
+
+
+
+	#log4j.appender.Ganymede=org.apache.log4j.net.SocketAppender
+	#log4j.appender.Ganymede.remoteHost=localhost
+	#log4j.appender.Ganymede.port=4445
+	#log4j.appender.Ganymede.locationInfo=true
+	
+	
+	# ConApp is set to be a ConsoleAppender.
+	log4j.appender.ConApp=org.apache.log4j.ConsoleAppender
+	# ConApp uses PatternLayout.
+	log4j.appender.ConApp.layout=org.apache.log4j.PatternLayout
+	# Define Pattern
+	log4j.appender.ConApp.layout.ConversionPattern=%d [%t] %-5p %c - %m%n
+				#%r [%t] %-5p %c - %m%n"
+	# FileApp
+	log4j.appender.FileApp=org.apache.log4j.RollingFileAppender
+	log4j.appender.FileApp.File=log.log
+	log4j.appender.FileApp.MaxFileSize=1500KB
+	# Keep one backup file
+	log4j.appender.FileApp.MaxBackupIndex=1
+	log4j.appender.FileApp.layout=org.apache.log4j.PatternLayout
+	log4j.appender.FileApp.layout.ConversionPattern=%d [%t] %-5p %c - %m%n
+
+	

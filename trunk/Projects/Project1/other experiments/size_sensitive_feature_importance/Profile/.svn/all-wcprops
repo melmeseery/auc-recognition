@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/size_sensitive_feature_importance/Profile
+END
+net.mat
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/size_sensitive_feature_importance/Profile/net.mat
+END
+training_set.mat
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/size_sensitive_feature_importance/Profile/training_set.mat
+END
+FixedSizeProfile_2.m
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/size_sensitive_feature_importance/Profile/FixedSizeProfile_2.m
+END
+confusion_matrix.mat
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/size_sensitive_feature_importance/Profile/confusion_matrix.mat
+END
+Train.m
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/size_sensitive_feature_importance/Profile/Train.m
+END
+testing_set.mat
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/size_sensitive_feature_importance/Profile/testing_set.mat
+END
+Test.m
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/size_sensitive_feature_importance/Profile/Test.m
+END
+accuracy.mat
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/size_sensitive_feature_importance/Profile/accuracy.mat
+END
+GetMatlabProfile.m
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/size_sensitive_feature_importance/Profile/GetMatlabProfile.m
+END
+training_labels.mat
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/size_sensitive_feature_importance/Profile/training_labels.mat
+END
+testing_labels.mat
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/size_sensitive_feature_importance/Profile/testing_labels.mat
+END

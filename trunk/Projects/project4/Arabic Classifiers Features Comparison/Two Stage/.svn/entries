@@ -1,0 +1,46 @@
+10
+
+dir
+291
+http://auc-recognition.googlecode.com/svn/trunk/project4/Arabic%20Classifiers%20Features%20Comparison/Two%20Stage
+http://auc-recognition.googlecode.com/svn
+
+
+
+2008-07-30T14:29:42.250000Z
+85
+maha
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+c19fac24-2e32-11df-8971-ebb891de2ff2
+
+Finding_Errors_of_Last_Stage
+dir
+
+PCA+Quad Gradient
+dir
+
+Linear Gradient
+dir
+
+ANN Gradient
+dir
+
+Two Stage
+dir
+
+Linear SVM Gradient
+dir
+

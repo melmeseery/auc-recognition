@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/199/trunk/Saved/DigitRecognition/data/image
+END
+RegionCreater.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/199/trunk/Saved/DigitRecognition/data/image/RegionCreater.java
+END
+Block.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/199/trunk/Saved/DigitRecognition/data/image/Block.java
+END
+RegionOfImage.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/199/trunk/Saved/DigitRecognition/data/image/RegionOfImage.java
+END
+MNISTImageHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/199/trunk/Saved/DigitRecognition/data/image/MNISTImageHandler.java
+END
+ImageBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/199/trunk/Saved/DigitRecognition/data/image/ImageBase.java
+END
+Digit.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/199/trunk/Saved/DigitRecognition/data/image/Digit.java
+END
+ArabicImageHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/199/trunk/Saved/DigitRecognition/data/image/ArabicImageHandler.java
+END
+FeaturedRegion.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/199/trunk/Saved/DigitRecognition/data/image/FeaturedRegion.java
+END
+ImageReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/199/trunk/Saved/DigitRecognition/data/image/ImageReader.java
+END
+BlockList.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/199/trunk/Saved/DigitRecognition/data/image/BlockList.java
+END

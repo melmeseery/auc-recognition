@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/contour_vs_chain/Chain_OrdAvg
+END
+testing_labels.mat
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/contour_vs_chain/Chain_OrdAvg/testing_labels.mat
+END
+Train.asv
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/contour_vs_chain/Chain_OrdAvg/Train.asv
+END
+ChainCode_Avg.m
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/contour_vs_chain/Chain_OrdAvg/ChainCode_Avg.m
+END
+net.mat
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/contour_vs_chain/Chain_OrdAvg/net.mat
+END
+training_set.mat
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/contour_vs_chain/Chain_OrdAvg/training_set.mat
+END
+confusion_matrix.mat
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/contour_vs_chain/Chain_OrdAvg/confusion_matrix.mat
+END
+Train.m
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/contour_vs_chain/Chain_OrdAvg/Train.m
+END
+testing_set.mat
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/contour_vs_chain/Chain_OrdAvg/testing_set.mat
+END
+ChainCode.m
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/contour_vs_chain/Chain_OrdAvg/ChainCode.m
+END
+Test.m
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/contour_vs_chain/Chain_OrdAvg/Test.m
+END
+accuracy.mat
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/contour_vs_chain/Chain_OrdAvg/accuracy.mat
+END
+training_labels.mat
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/contour_vs_chain/Chain_OrdAvg/training_labels.mat
+END
+FixedSizeChain_OrdinaryAvg_2.m
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/41/trunk/Project1/other%20experiments/contour_vs_chain/Chain_OrdAvg/FixedSizeChain_OrdinaryAvg_2.m
+END
